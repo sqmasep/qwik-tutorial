@@ -1,3 +1,10 @@
 export default {
-  plugins: ['prettier-plugin-tailwindcss'],
-}
+  useTabs: false,
+  tabWidth: 2,
+  printWidth: 80,
+  singleQuote: false,
+  trailingComma: "all",
+  semi: true,
+
+  plugins: ["prettier-plugin-tailwindcss"],
+};
