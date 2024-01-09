@@ -1,5 +1,6 @@
 import { $, component$, useSignal } from "@builder.io/qwik";
 import { FamilySelect } from "~/components/router-head/FamilySelect";
+import { colorMap } from "~/data/colorMap";
 import type { Atom } from "~/lib/validation/atom";
 import { useAtoms } from "~/routes/layout";
 import { createArray } from "~/utils/createSlicedArray";
@@ -8,7 +9,19 @@ export const PeriodicTable = component$(() => {
   const atoms = useAtoms();
 
   const renderAtom = (atom: Atom) => {
-    return <div>{atom.symbol}</div>;
+    return (
+      <div
+        class="relative flex h-16 w-16 items-center justify-center rounded "
+        style={{
+          backgroundColor: colorMap.family[atom.family.name] + "60",
+          border: "1px solid" + colorMap.family[atom.family.name] + "90",
+        }}
+      >
+        <span class="absolute left-2 top-0 text-sm">{atom.atomicNumber}</span>
+        <span class="text-xl">{atom.symbol}</span>
+        <span class="absolute bottom-2 text-[0.5rem]">{atom.name.fr}</span>
+      </div>
+    );
   };
 
   if (!atoms.value.length) return null;
@@ -20,7 +33,7 @@ export const PeriodicTable = component$(() => {
     <div>
       <FamilySelect options={["All", ...families]} value={selectedFamily} />
       {selectedFamily.value}
-      <div class="grid grid-cols-18">
+      <div class="mx-auto grid max-w-7xl grid-cols-18 gap-2">
         <div>{renderAtom(atoms.value[0])}</div>
         <div class="col-span-16" />
         <div>{renderAtom(atoms.value[1])}</div>
