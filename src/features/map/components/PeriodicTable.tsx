@@ -1,4 +1,5 @@
-import { component$ } from "@builder.io/qwik";
+import { $, component$, useSignal } from "@builder.io/qwik";
+import { FamilySelect } from "~/components/router-head/FamilySelect";
 import type { Atom } from "~/lib/validation/atom";
 import { useAtoms } from "~/routes/layout";
 import { createArray } from "~/utils/createSlicedArray";
@@ -12,8 +13,13 @@ export const PeriodicTable = component$(() => {
 
   if (!atoms.value.length) return null;
 
+  const selectedFamily = useSignal("All");
+  const families = new Set(atoms.value.map((atom) => atom.family.name));
+
   return (
     <div>
+      <FamilySelect options={["All", ...families]} value={selectedFamily} />
+      {selectedFamily.value}
       <div class="grid grid-cols-18">
         <div>{renderAtom(atoms.value[0])}</div>
         <div class="col-span-16" />
