@@ -53,6 +53,7 @@
     "vite-tsconfig-paths": "^4.2.1"
   },
   "dependencies": {
+    "@qwikest/icons": "^0.0.13",
     "valibot": "^0.25.0"
   }
 }

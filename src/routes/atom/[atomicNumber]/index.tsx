@@ -1,7 +1,8 @@
 import { component$ } from "@builder.io/qwik";
-import { routeLoader$ } from "@builder.io/qwik-city";
+import { Link, routeLoader$ } from "@builder.io/qwik-city";
 import { colorMap } from "~/data/colorMap";
 import { useAtoms } from "~/routes/layout";
+import { LuHome } from "@qwikest/icons/lucide";
 
 export const useAtom = routeLoader$(async (requestEvent) => {
   const atoms = await requestEvent.resolveValue(useAtoms);
@@ -23,6 +24,9 @@ export default component$(() => {
 
   return (
     <div class="flex h-screen w-screen items-center justify-evenly text-white">
+      <Link href="/" class="absolute left-16 top-6">
+        <LuHome class="text-2xl" />
+      </Link>
       <div
         class="relative flex h-80 w-80 items-center justify-center rounded-lg shadow-lg"
         style={containerStyle}
