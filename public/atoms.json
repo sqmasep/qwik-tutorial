@@ -1,0 +1,3542 @@
+[
+  {
+    "_id": {
+      "$oid": "65732ca900610b6289d60fc7"
+    },
+    "atomicNumber": 1,
+    "symbol": "H",
+    "atomicMass": "1.008",
+    "meltingPoint": {
+      "kelvin": "14.01",
+      "celsius": "-259.14",
+      "fahrenheit": "-434.45"
+    },
+    "name": {
+      "en": "Hydrogen",
+      "fr": "Hydrogène"
+    },
+    "phaseAtSTP": "gas",
+    "block": "s",
+    "group": 1,
+    "period": 1,
+    "family": {
+      "isMetal": false,
+      "name": "Non-metal"
+    },
+    "discovery": {
+      "by": "Henry Cavendish",
+      "country": "United Kingdom",
+      "year": 1766
+    }
+  },
+  {
+    "_id": {
+      "$oid": "65732ca900610b6289d60fc8"
+    },
+    "atomicNumber": 2,
+    "symbol": "He",
+    "atomicMass": "4.002602",
+    "meltingPoint": {
+      "kelvin": "0.95",
+      "celsius": "-272.2",
+      "fahrenheit": "-457.96"
+    },
+    "name": {
+      "en": "Helium",
+      "fr": "Hélium"
+    },
+    "phaseAtSTP": "gas",
+    "block": "s",
+    "group": 18,
+    "period": 1,
+    "family": {
+      "isMetal": false,
+      "name": "Noble gas"
+    },
+    "discovery": {
+      "by": "Pierre Janssen",
+      "country": "France",
+      "year": 1868
+    }
+  },
+  {
+    "_id": {
+      "$oid": "65732ca900610b6289d60fc9"
+    },
+    "atomicNumber": 3,
+    "symbol": "Li",
+    "atomicMass": "6.94",
+    "meltingPoint": {
+      "kelvin": "453.65",
+      "celsius": "180.5",
+      "fahrenheit": "356.9"
+    },
+    "name": {
+      "en": "Lithium",
+      "fr": "Lithium"
+    },
+    "phaseAtSTP": "solid",
+    "block": "s",
+    "group": 1,
+    "period": 2,
+    "family": {
+      "isMetal": true,
+      "name": "Alkali metal"
+    },
+    "discovery": {
+      "by": "Johan August Arfwedson",
+      "country": "Sweden",
+      "year": 1817
+    }
+  },
+  {
+    "_id": {
+      "$oid": "65732ca900610b6289d60fca"
+    },
+    "atomicNumber": 4,
+    "symbol": "Be",
+    "atomicMass": "9.0121831",
+    "meltingPoint": {
+      "kelvin": "1560",
+      "celsius": "1287",
+      "fahrenheit": "2349"
+    },
+    "name": {
+      "en": "Beryllium",
+      "fr": "Béryllium"
+    },
+    "phaseAtSTP": "solid",
+    "block": "s",
+    "group": 2,
+    "period": 2,
+    "family": {
+      "isMetal": true,
+      "name": "Alkaline earth metal"
+    },
+    "discovery": {
+      "by": "Louis Nicolas Vauquelin",
+      "country": "France",
+      "year": 1798
+    }
+  },
+  {
+    "_id": {
+      "$oid": "65732ca900610b6289d60fcb"
+    },
+    "atomicNumber": 5,
+    "symbol": "B",
+    "atomicMass": "10.81",
+    "meltingPoint": {
+      "kelvin": "2349",
+      "celsius": "2075",
+      "fahrenheit": "3767"
+    },
+    "name": {
+      "en": "Boron",
+      "fr": "Bore"
+    },
+    "phaseAtSTP": "solid",
+    "block": "p",
+    "group": 13,
+    "period": 2,
+    "family": {
+      "isMetal": false,
+      "name": "Metalloid"
+    },
+    "discovery": {
+      "by": "Joseph Louis Gay-Lussac",
+      "country": "France",
+      "year": 1808
+    }
+  },
+  {
+    "_id": {
+      "$oid": "65732ca900610b6289d60fcc"
+    },
+    "atomicNumber": 6,
+    "symbol": "C",
+    "atomicMass": "12.011",
+    "meltingPoint": {
+      "kelvin": "3823",
+      "celsius": "3550",
+      "fahrenheit": "6422"
+    },
+    "name": {
+      "en": "Carbon",
+      "fr": "Carbone"
+    },
+    "phaseAtSTP": "solid",
+    "block": "p",
+    "group": 14,
+    "period": 2,
+    "family": {
+      "isMetal": false,
+      "name": "Non-metal"
+    },
+    "discovery": {
+      "by": "Ancient Egypt",
+      "country": "Egypt",
+      "year": -3750
+    }
+  },
+  {
+    "_id": {
+      "$oid": "65732ca900610b6289d60fcd"
+    },
+    "atomicNumber": 7,
+    "symbol": "N",
+    "atomicMass": "14.007",
+    "meltingPoint": {
+      "kelvin": "63.15",
+      "celsius": "-210.0",
+      "fahrenheit": "-346.0"
+    },
+    "name": {
+      "en": "Nitrogen",
+      "fr": "Azote"
+    },
+    "phaseAtSTP": "gas",
+    "block": "p",
+    "group": 15,
+    "period": 2,
+    "family": {
+      "isMetal": false,
+      "name": "Non-metal"
+    },
+    "discovery": {
+      "by": "Daniel Rutherford",
+      "country": "Scotland",
+      "year": 1772
+    }
+  },
+  {
+    "_id": {
+      "$oid": "65732ca900610b6289d60fce"
+    },
+    "atomicNumber": 8,
+    "symbol": "O",
+    "atomicMass": "15.999",
+    "meltingPoint": {
+      "kelvin": "54.36",
+      "celsius": "-218.79",
+      "fahrenheit": "-361.82"
+    },
+    "name": {
+      "en": "Oxygen",
+      "fr": "Oxygène"
+    },
+    "phaseAtSTP": "gas",
+    "block": "p",
+    "group": 16,
+    "period": 2,
+    "family": {
+      "isMetal": false,
+      "name": "Non-metal"
+    },
+    "discovery": {
+      "by": "Carl Wilhelm Scheele",
+      "country": "Sweden",
+      "year": 1771
+    }
+  },
+  {
+    "_id": {
+      "$oid": "65732ca900610b6289d60fcf"
+    },
+    "atomicNumber": 9,
+    "symbol": "F",
+    "atomicMass": "18.998403163",
+    "meltingPoint": {
+      "kelvin": "53.48",
+      "celsius": "-219.67",
+      "fahrenheit": "-363.41"
+    },
+    "name": {
+      "en": "Fluorine",
+      "fr": "Fluor"
+    },
+    "phaseAtSTP": "gas",
+    "block": "p",
+    "group": 17,
+    "period": 2,
+    "family": {
+      "isMetal": false,
+      "name": "Halogen"
+    },
+    "discovery": {
+      "by": "André-Marie Ampère",
+      "country": "France",
+      "year": 1810
+    }
+  },
+  {
+    "_id": {
+      "$oid": "65732ca900610b6289d60fd0"
+    },
+    "atomicNumber": 10,
+    "symbol": "Ne",
+    "atomicMass": "20.1797",
+    "meltingPoint": {
+      "kelvin": "24.56",
+      "celsius": "-248.59",
+      "fahrenheit": "-415.46"
+    },
+    "name": {
+      "en": "Neon",
+      "fr": "Néon"
+    },
+    "phaseAtSTP": "gas",
+    "block": "p",
+    "group": 18,
+    "period": 2,
+    "family": {
+      "isMetal": false,
+      "name": "Noble gas"
+    },
+    "discovery": {
+      "by": "Morris Travers",
+      "country": "United Kingdom",
+      "year": 1898
+    }
+  },
+  {
+    "_id": {
+      "$oid": "65732ca900610b6289d60fd1"
+    },
+    "atomicNumber": 11,
+    "symbol": "Na",
+    "atomicMass": "22.98976928",
+    "meltingPoint": {
+      "kelvin": "370.87",
+      "celsius": "97.72",
+      "fahrenheit": "207.9"
+    },
+    "name": {
+      "en": "Sodium",
+      "fr": "Sodium"
+    },
+    "phaseAtSTP": "solid",
+    "block": "s",
+    "group": 1,
+    "period": 3,
+    "family": {
+      "isMetal": true,
+      "name": "Alkali metal"
+    },
+    "discovery": {
+      "by": "Humphry Davy",
+      "country": "United Kingdom",
+      "year": 1807
+    }
+  },
+  {
+    "_id": {
+      "$oid": "65732ca900610b6289d60fd2"
+    },
+    "atomicNumber": 12,
+    "symbol": "Mg",
+    "atomicMass": "24.305",
+    "meltingPoint": {
+      "kelvin": "923",
+      "celsius": "650",
+      "fahrenheit": "1202"
+    },
+    "name": {
+      "en": "Magnesium",
+      "fr": "Magnésium"
+    },
+    "phaseAtSTP": "solid",
+    "block": "s",
+    "group": 2,
+    "period": 3,
+    "family": {
+      "isMetal": true,
+      "name": "Alkaline earth metal"
+    },
+    "discovery": {
+      "by": "Joseph Black",
+      "country": "Scotland",
+      "year": 1755
+    }
+  },
+  {
+    "_id": {
+      "$oid": "65732ca900610b6289d60fd3"
+    },
+    "atomicNumber": 13,
+    "symbol": "Al",
+    "atomicMass": "26.9815385",
+    "meltingPoint": {
+      "kelvin": "933.47",
+      "celsius": "660.32",
+      "fahrenheit": "1220.58"
+    },
+    "name": {
+      "en": "Aluminium",
+      "fr": "Aluminium"
+    },
+    "phaseAtSTP": "solid",
+    "block": "p",
+    "group": 13,
+    "period": 3,
+    "family": {
+      "isMetal": true,
+      "name": "Post-transition metal"
+    },
+    "discovery": {
+      "by": "Hans Christian Ørsted",
+      "country": "Denmark",
+      "year": 1825
+    }
+  },
+  {
+    "_id": {
+      "$oid": "65732ca900610b6289d60fd4"
+    },
+    "atomicNumber": 14,
+    "symbol": "Si",
+    "atomicMass": "28.085",
+    "meltingPoint": {
+      "kelvin": "1687",
+      "celsius": "1414",
+      "fahrenheit": "2577"
+    },
+    "name": {
+      "en": "Silicon",
+      "fr": "Silicium"
+    },
+    "phaseAtSTP": "solid",
+    "block": "p",
+    "group": 14,
+    "period": 3,
+    "family": {
+      "isMetal": false,
+      "name": "Metalloid"
+    },
+    "discovery": {
+      "by": "Jöns Jacob Berzelius",
+      "country": "Sweden",
+      "year": 1824
+    }
+  },
+  {
+    "_id": {
+      "$oid": "65732ca900610b6289d60fd5"
+    },
+    "atomicNumber": 15,
+    "symbol": "P",
+    "atomicMass": "30.973761998",
+    "meltingPoint": {
+      "kelvin": "317.3",
+      "celsius": "44.15",
+      "fahrenheit": "111.47"
+    },
+    "name": {
+      "en": "Phosphorus",
+      "fr": "Phosphore"
+    },
+    "phaseAtSTP": "solid",
+    "block": "p",
+    "group": 15,
+    "period": 3,
+    "family": {
+      "isMetal": false,
+      "name": "Non-metal"
+    },
+    "discovery": {
+      "by": "Hennig Brand",
+      "country": "Germany",
+      "year": 1669
+    }
+  },
+  {
+    "_id": {
+      "$oid": "65732ca900610b6289d60fd6"
+    },
+    "atomicNumber": 16,
+    "symbol": "S",
+    "atomicMass": "32.06",
+    "meltingPoint": {
+      "kelvin": "388.36",
+      "celsius": "115.21",
+      "fahrenheit": "239.38"
+    },
+    "name": {
+      "en": "Sulfur",
+      "fr": "Soufre"
+    },
+    "phaseAtSTP": "solid",
+    "block": "p",
+    "group": 16,
+    "period": 3,
+    "family": {
+      "isMetal": false,
+      "name": "Non-metal"
+    },
+    "discovery": {
+      "by": "Ancient China",
+      "country": "China",
+      "year": -500
+    }
+  },
+  {
+    "_id": {
+      "$oid": "65732ca900610b6289d60fd7"
+    },
+    "atomicNumber": 17,
+    "symbol": "Cl",
+    "atomicMass": "35.45",
+    "meltingPoint": {
+      "kelvin": "171.6",
+      "celsius": "-101.5",
+      "fahrenheit": "-150.7"
+    },
+    "name": {
+      "en": "Chlorine",
+      "fr": "Chlore"
+    },
+    "phaseAtSTP": "gas",
+    "block": "p",
+    "group": 17,
+    "period": 3,
+    "family": {
+      "isMetal": false,
+      "name": "Halogen"
+    },
+    "discovery": {
+      "by": "Carl Wilhelm Scheele",
+      "country": "Sweden",
+      "year": 1774
+    }
+  },
+  {
+    "_id": {
+      "$oid": "65732ca900610b6289d60fd8"
+    },
+    "atomicNumber": 18,
+    "symbol": "Ar",
+    "atomicMass": "39.948",
+    "meltingPoint": {
+      "kelvin": "83.81",
+      "celsius": "-189.34",
+      "fahrenheit": "-308.81"
+    },
+    "name": {
+      "en": "Argon",
+      "fr": "Argon"
+    },
+    "phaseAtSTP": "gas",
+    "block": "p",
+    "group": 18,
+    "period": 3,
+    "family": {
+      "isMetal": false,
+      "name": "Noble gas"
+    },
+    "discovery": {
+      "by": "Lord Rayleigh",
+      "country": "United Kingdom",
+      "year": 1894
+    }
+  },
+  {
+    "_id": {
+      "$oid": "65732ca900610b6289d60fd9"
+    },
+    "atomicNumber": 19,
+    "symbol": "K",
+    "atomicMass": "39.0983",
+    "meltingPoint": {
+      "kelvin": "336.53",
+      "celsius": "63.38",
+      "fahrenheit": "146.08"
+    },
+    "name": {
+      "en": "Potassium",
+      "fr": "Potassium"
+    },
+    "phaseAtSTP": "solid",
+    "block": "s",
+    "group": 1,
+    "period": 4,
+    "family": {
+      "isMetal": true,
+      "name": "Alkali metal"
+    },
+    "discovery": {
+      "by": "Humphry Davy",
+      "country": "United Kingdom",
+      "year": 1807
+    }
+  },
+  {
+    "_id": {
+      "$oid": "65732ca900610b6289d60fda"
+    },
+    "atomicNumber": 20,
+    "symbol": "Ca",
+    "atomicMass": "40.078",
+    "meltingPoint": {
+      "kelvin": "1115",
+      "celsius": "842",
+      "fahrenheit": "1548"
+    },
+    "name": {
+      "en": "Calcium",
+      "fr": "Calcium"
+    },
+    "phaseAtSTP": "solid",
+    "block": "s",
+    "group": 2,
+    "period": 4,
+    "family": {
+      "isMetal": true,
+      "name": "Alkaline earth metal"
+    },
+    "discovery": {
+      "by": "Humphry Davy",
+      "country": "United Kingdom",
+      "year": 1808
+    }
+  },
+  {
+    "_id": {
+      "$oid": "65732ca900610b6289d60fdb"
+    },
+    "atomicNumber": 21,
+    "symbol": "Sc",
+    "atomicMass": "44.955908",
+    "meltingPoint": {
+      "kelvin": "1814",
+      "celsius": "1541",
+      "fahrenheit": "2806"
+    },
+    "name": {
+      "en": "Scandium",
+      "fr": "Scandium"
+    },
+    "phaseAtSTP": "solid",
+    "block": "d",
+    "group": 3,
+    "period": 4,
+    "family": {
+      "isMetal": true,
+      "name": "Transition metal"
+    },
+    "discovery": {
+      "by": "Lars Fredrik Nilson",
+      "country": "Sweden",
+      "year": 1879
+    }
+  },
+  {
+    "_id": {
+      "$oid": "65732ca900610b6289d60fdc"
+    },
+    "atomicNumber": 22,
+    "symbol": "Ti",
+    "atomicMass": "47.867",
+    "meltingPoint": {
+      "kelvin": "1941",
+      "celsius": "1668",
+      "fahrenheit": "3034"
+    },
+    "name": {
+      "en": "Titanium",
+      "fr": "Titane"
+    },
+    "phaseAtSTP": "solid",
+    "block": "d",
+    "group": 4,
+    "period": 4,
+    "family": {
+      "isMetal": true,
+      "name": "Transition metal"
+    },
+    "discovery": {
+      "by": "William Gregor",
+      "country": "United Kingdom",
+      "year": 1791
+    }
+  },
+  {
+    "_id": {
+      "$oid": "65732ca900610b6289d60fdd"
+    },
+    "atomicNumber": 23,
+    "symbol": "V",
+    "atomicMass": "50.9415",
+    "meltingPoint": {
+      "kelvin": "2183",
+      "celsius": "1910",
+      "fahrenheit": "3470"
+    },
+    "name": {
+      "en": "Vanadium",
+      "fr": "Vanadium"
+    },
+    "phaseAtSTP": "solid",
+    "block": "d",
+    "group": 5,
+    "period": 4,
+    "family": {
+      "isMetal": true,
+      "name": "Transition metal"
+    },
+    "discovery": {
+      "by": "Andrés Manuel del Río",
+      "country": "Mexico",
+      "year": 1801
+    }
+  },
+  {
+    "_id": {
+      "$oid": "65732ca900610b6289d60fde"
+    },
+    "atomicNumber": 24,
+    "symbol": "Cr",
+    "atomicMass": "51.9961",
+    "meltingPoint": {
+      "kelvin": "2180",
+      "celsius": "1907",
+      "fahrenheit": "3465"
+    },
+    "name": {
+      "en": "Chromium",
+      "fr": "Chrome"
+    },
+    "phaseAtSTP": "solid",
+    "block": "d",
+    "group": 6,
+    "period": 4,
+    "family": {
+      "isMetal": true,
+      "name": "Transition metal"
+    },
+    "discovery": {
+      "by": "Louis Nicolas Vauquelin",
+      "country": "France",
+      "year": 1797
+    }
+  },
+  {
+    "_id": {
+      "$oid": "65732ca900610b6289d60fdf"
+    },
+    "atomicNumber": 25,
+    "symbol": "Mn",
+    "atomicMass": "54.938044",
+    "meltingPoint": {
+      "kelvin": "1519",
+      "celsius": "1246",
+      "fahrenheit": "2275"
+    },
+    "name": {
+      "en": "Manganese",
+      "fr": "Manganèse"
+    },
+    "phaseAtSTP": "solid",
+    "block": "d",
+    "group": 7,
+    "period": 4,
+    "family": {
+      "isMetal": true,
+      "name": "Transition metal"
+    },
+    "discovery": {
+      "by": "Torbern Olof Bergman",
+      "country": "Sweden",
+      "year": 1770
+    }
+  },
+  {
+    "_id": {
+      "$oid": "65732ca900610b6289d60fe0"
+    },
+    "atomicNumber": 26,
+    "symbol": "Fe",
+    "atomicMass": "55.845",
+    "meltingPoint": {
+      "kelvin": "1811",
+      "celsius": "1538",
+      "fahrenheit": "2800"
+    },
+    "name": {
+      "en": "Iron",
+      "fr": "Fer"
+    },
+    "phaseAtSTP": "solid",
+    "block": "d",
+    "group": 8,
+    "period": 4,
+    "family": {
+      "isMetal": true,
+      "name": "Transition metal"
+    },
+    "discovery": {
+      "by": "Ancient Egypt",
+      "country": "Egypt",
+      "year": -3500
+    }
+  },
+  {
+    "_id": {
+      "$oid": "65732ca900610b6289d60fe1"
+    },
+    "atomicNumber": 27,
+    "symbol": "Co",
+    "atomicMass": "58.933194",
+    "meltingPoint": {
+      "kelvin": "1768",
+      "celsius": "1495",
+      "fahrenheit": "2723"
+    },
+    "name": {
+      "en": "Cobalt",
+      "fr": "Cobalt"
+    },
+    "phaseAtSTP": "solid",
+    "block": "d",
+    "group": 9,
+    "period": 4,
+    "family": {
+      "isMetal": true,
+      "name": "Transition metal"
+    },
+    "discovery": {
+      "by": "Georg Brandt",
+      "country": "Sweden",
+      "year": 1735
+    }
+  },
+  {
+    "_id": {
+      "$oid": "65732ca900610b6289d60fe2"
+    },
+    "atomicNumber": 28,
+    "symbol": "Ni",
+    "atomicMass": "58.6934",
+    "meltingPoint": {
+      "kelvin": "1728",
+      "celsius": "1455",
+      "fahrenheit": "2651"
+    },
+    "name": {
+      "en": "Nickel",
+      "fr": "Nickel"
+    },
+    "phaseAtSTP": "solid",
+    "block": "d",
+    "group": 10,
+    "period": 4,
+    "family": {
+      "isMetal": true,
+      "name": "Transition metal"
+    },
+    "discovery": {
+      "by": "Axel Fredrik Cronstedt",
+      "country": "Sweden",
+      "year": 1751
+    }
+  },
+  {
+    "_id": {
+      "$oid": "65732ca900610b6289d60fe3"
+    },
+    "atomicNumber": 29,
+    "symbol": "Cu",
+    "atomicMass": "63.546",
+    "meltingPoint": {
+      "kelvin": "1357.77",
+      "celsius": "1084.62",
+      "fahrenheit": "1984.32"
+    },
+    "name": {
+      "en": "Copper",
+      "fr": "Cuivre"
+    },
+    "phaseAtSTP": "solid",
+    "block": "d",
+    "group": 11,
+    "period": 4,
+    "family": {
+      "isMetal": true,
+      "name": "Transition metal"
+    },
+    "discovery": {
+      "by": "Ancient Egypt",
+      "country": "Egypt",
+      "year": -9000
+    }
+  },
+  {
+    "_id": {
+      "$oid": "65732ca900610b6289d60fe4"
+    },
+    "atomicNumber": 30,
+    "symbol": "Zn",
+    "atomicMass": "65.38",
+    "meltingPoint": {
+      "kelvin": "692.68",
+      "celsius": "419.53",
+      "fahrenheit": "787.15"
+    },
+    "name": {
+      "en": "Zinc",
+      "fr": "Zinc"
+    },
+    "phaseAtSTP": "solid",
+    "block": "d",
+    "group": 12,
+    "period": 4,
+    "family": {
+      "isMetal": true,
+      "name": "Transition metal"
+    },
+    "discovery": {
+      "by": "India",
+      "country": "India",
+      "year": 1200
+    }
+  },
+  {
+    "_id": {
+      "$oid": "65732ca900610b6289d60fe5"
+    },
+    "atomicNumber": 31,
+    "symbol": "Ga",
+    "atomicMass": "69.723",
+    "meltingPoint": {
+      "kelvin": "302.91",
+      "celsius": "29.76",
+      "fahrenheit": "85.57"
+    },
+    "name": {
+      "en": "Gallium",
+      "fr": "Gallium"
+    },
+    "phaseAtSTP": "solid",
+    "block": "p",
+    "group": 13,
+    "period": 4,
+    "family": {
+      "isMetal": true,
+      "name": "Post-transition metal"
+    },
+    "discovery": {
+      "by": "Lecoq de Boisbaudran",
+      "country": "France",
+      "year": 1875
+    }
+  },
+  {
+    "_id": {
+      "$oid": "65732ca900610b6289d60fe6"
+    },
+    "atomicNumber": 32,
+    "symbol": "Ge",
+    "atomicMass": "72.630",
+    "meltingPoint": {
+      "kelvin": "1211.4",
+      "celsius": "938.25",
+      "fahrenheit": "1720.85"
+    },
+    "name": {
+      "en": "Germanium",
+      "fr": "Germanium"
+    },
+    "phaseAtSTP": "solid",
+    "block": "p",
+    "group": 14,
+    "period": 4,
+    "family": {
+      "isMetal": false,
+      "name": "Metalloid"
+    },
+    "discovery": {
+      "by": "Clemens Winkler",
+      "country": "Germany",
+      "year": 1886
+    }
+  },
+  {
+    "_id": {
+      "$oid": "65732ca900610b6289d60fe7"
+    },
+    "atomicNumber": 33,
+    "symbol": "As",
+    "atomicMass": "74.921595",
+    "meltingPoint": {
+      "kelvin": "1090",
+      "celsius": "817",
+      "fahrenheit": "1503"
+    },
+    "name": {
+      "en": "Arsenic",
+      "fr": "Arsenic"
+    },
+    "phaseAtSTP": "solid",
+    "block": "p",
+    "group": 15,
+    "period": 4,
+    "family": {
+      "isMetal": false,
+      "name": "Metalloid"
+    },
+    "discovery": {
+      "by": "Albertus Magnus",
+      "country": "Germany",
+      "year": 1250
+    }
+  },
+  {
+    "_id": {
+      "$oid": "65732ca900610b6289d60fe8"
+    },
+    "atomicNumber": 34,
+    "symbol": "Se",
+    "atomicMass": "78.971",
+    "meltingPoint": {
+      "kelvin": "494",
+      "celsius": "221",
+      "fahrenheit": "430"
+    },
+    "name": {
+      "en": "Selenium",
+      "fr": "Sélénium"
+    },
+    "phaseAtSTP": "solid",
+    "block": "p",
+    "group": 16,
+    "period": 4,
+    "family": {
+      "isMetal": false,
+      "name": "Non-metal"
+    },
+    "discovery": {
+      "by": "Jöns Jacob Berzelius",
+      "country": "Sweden",
+      "year": 1817
+    }
+  },
+  {
+    "_id": {
+      "$oid": "65732ca900610b6289d60fe9"
+    },
+    "atomicNumber": 35,
+    "symbol": "Br",
+    "atomicMass": "79.904",
+    "meltingPoint": {
+      "kelvin": "266.05",
+      "celsius": "-7.05",
+      "fahrenheit": "19.77"
+    },
+    "name": {
+      "en": "Bromine",
+      "fr": "Brome"
+    },
+    "phaseAtSTP": "liquid",
+    "block": "p",
+    "group": 17,
+    "period": 4,
+    "family": {
+      "isMetal": false,
+      "name": "Halogen"
+    },
+    "discovery": {
+      "by": "Antoine Jérôme Balard",
+      "country": "France",
+      "year": 1826
+    }
+  },
+  {
+    "_id": {
+      "$oid": "65732ca900610b6289d60fea"
+    },
+    "atomicNumber": 36,
+    "symbol": "Kr",
+    "atomicMass": "83.798",
+    "meltingPoint": {
+      "kelvin": "115.79",
+      "celsius": "-157.36",
+      "fahrenheit": "-251.21"
+    },
+    "name": {
+      "en": "Krypton",
+      "fr": "Krypton"
+    },
+    "phaseAtSTP": "gas",
+    "block": "p",
+    "group": 18,
+    "period": 4,
+    "family": {
+      "isMetal": false,
+      "name": "Noble gas"
+    },
+    "discovery": {
+      "by": "William Ramsay",
+      "country": "United Kingdom",
+      "year": 1898
+    }
+  },
+  {
+    "_id": {
+      "$oid": "65732ca900610b6289d60feb"
+    },
+    "atomicNumber": 37,
+    "symbol": "Rb",
+    "atomicMass": "85.4678",
+    "meltingPoint": {
+      "kelvin": "312.45",
+      "celsius": "39.3",
+      "fahrenheit": "102.74"
+    },
+    "name": {
+      "en": "Rubidium",
+      "fr": "Rubidium"
+    },
+    "phaseAtSTP": "solid",
+    "block": "s",
+    "group": 1,
+    "period": 5,
+    "family": {
+      "isMetal": true,
+      "name": "Alkali metal"
+    },
+    "discovery": {
+      "by": "Robert Bunsen",
+      "country": "Germany",
+      "year": 1861
+    }
+  },
+  {
+    "_id": {
+      "$oid": "65732ca900610b6289d60fec"
+    },
+    "atomicNumber": 38,
+    "symbol": "Sr",
+    "atomicMass": "87.62",
+    "meltingPoint": {
+      "kelvin": "1050",
+      "celsius": "777",
+      "fahrenheit": "1431"
+    },
+    "name": {
+      "en": "Strontium",
+      "fr": "Strontium"
+    },
+    "phaseAtSTP": "solid",
+    "block": "s",
+    "group": 2,
+    "period": 5,
+    "family": {
+      "isMetal": true,
+      "name": "Alkaline earth metal"
+    },
+    "discovery": {
+      "by": "William Cruickshank (chemist)",
+      "country": "United Kingdom",
+      "year": 1787
+    }
+  },
+  {
+    "_id": {
+      "$oid": "65732ca900610b6289d60fed"
+    },
+    "atomicNumber": 39,
+    "symbol": "Y",
+    "atomicMass": "88.90584",
+    "meltingPoint": {
+      "kelvin": "1799",
+      "celsius": "1526",
+      "fahrenheit": "2779"
+    },
+    "name": {
+      "en": "Yttrium",
+      "fr": "Yttrium"
+    },
+    "phaseAtSTP": "solid",
+    "block": "d",
+    "group": 3,
+    "period": 5,
+    "family": {
+      "isMetal": true,
+      "name": "Transition metal"
+    },
+    "discovery": {
+      "by": "Johan Gadolin",
+      "country": "Finland",
+      "year": 1794
+    }
+  },
+  {
+    "_id": {
+      "$oid": "65732ca900610b6289d60fee"
+    },
+    "atomicNumber": 40,
+    "symbol": "Zr",
+    "atomicMass": "91.224",
+    "meltingPoint": {
+      "kelvin": "2128",
+      "celsius": "1855",
+      "fahrenheit": "3371"
+    },
+    "name": {
+      "en": "Zirconium",
+      "fr": "Zirconium"
+    },
+    "phaseAtSTP": "solid",
+    "block": "d",
+    "group": 4,
+    "period": 5,
+    "family": {
+      "isMetal": true,
+      "name": "Transition metal"
+    },
+    "discovery": {
+      "by": "Martin Heinrich Klaproth",
+      "country": "Germany",
+      "year": 1789
+    }
+  },
+  {
+    "_id": {
+      "$oid": "65732ca900610b6289d60fef"
+    },
+    "atomicNumber": 41,
+    "symbol": "Nb",
+    "atomicMass": "92.90637",
+    "meltingPoint": {
+      "kelvin": "2750",
+      "celsius": "2477",
+      "fahrenheit": "4491"
+    },
+    "name": {
+      "en": "Niobium",
+      "fr": "Niobium"
+    },
+    "phaseAtSTP": "solid",
+    "block": "d",
+    "group": 5,
+    "period": 5,
+    "family": {
+      "isMetal": true,
+      "name": "Transition metal"
+    },
+    "discovery": {
+      "by": "Charles Hatchett",
+      "country": "United Kingdom",
+      "year": 1801
+    }
+  },
+  {
+    "_id": {
+      "$oid": "65732ca900610b6289d60ff0"
+    },
+    "atomicNumber": 42,
+    "symbol": "Mo",
+    "atomicMass": "95.95",
+    "meltingPoint": {
+      "kelvin": "2896",
+      "celsius": "2623",
+      "fahrenheit": "4753"
+    },
+    "name": {
+      "en": "Molybdenum",
+      "fr": "Molybdène"
+    },
+    "phaseAtSTP": "solid",
+    "block": "d",
+    "group": 6,
+    "period": 5,
+    "family": {
+      "isMetal": true,
+      "name": "Transition metal"
+    },
+    "discovery": {
+      "by": "Carl Wilhelm Scheele",
+      "country": "Sweden",
+      "year": 1778
+    }
+  },
+  {
+    "_id": {
+      "$oid": "65732ca900610b6289d60ff1"
+    },
+    "atomicNumber": 43,
+    "symbol": "Tc",
+    "atomicMass": "98",
+    "meltingPoint": {
+      "kelvin": "2430",
+      "celsius": "2157",
+      "fahrenheit": "3915"
+    },
+    "name": {
+      "en": "Technetium",
+      "fr": "Technétium"
+    },
+    "phaseAtSTP": "solid",
+    "block": "d",
+    "group": 7,
+    "period": 5,
+    "family": {
+      "isMetal": true,
+      "name": "Transition metal"
+    },
+    "discovery": {
+      "by": "Emilio Segrè",
+      "country": "Italy",
+      "year": 1937
+    }
+  },
+  {
+    "_id": {
+      "$oid": "65732ca900610b6289d60ff2"
+    },
+    "atomicNumber": 44,
+    "symbol": "Ru",
+    "atomicMass": "101.07",
+    "meltingPoint": {
+      "kelvin": "2607",
+      "celsius": "2334",
+      "fahrenheit": "4233"
+    },
+    "name": {
+      "en": "Ruthenium",
+      "fr": "Ruthénium"
+    },
+    "phaseAtSTP": "solid",
+    "block": "d",
+    "group": 8,
+    "period": 5,
+    "family": {
+      "isMetal": true,
+      "name": "Transition metal"
+    },
+    "discovery": {
+      "by": "Karl Ernst Claus",
+      "country": "Russia",
+      "year": 1844
+    }
+  },
+  {
+    "_id": {
+      "$oid": "65732ca900610b6289d60ff3"
+    },
+    "atomicNumber": 45,
+    "symbol": "Rh",
+    "atomicMass": "102.90550",
+    "meltingPoint": {
+      "kelvin": "2237",
+      "celsius": "1964",
+      "fahrenheit": "3567"
+    },
+    "name": {
+      "en": "Rhodium",
+      "fr": "Rhodium"
+    },
+    "phaseAtSTP": "solid",
+    "block": "d",
+    "group": 9,
+    "period": 5,
+    "family": {
+      "isMetal": true,
+      "name": "Transition metal"
+    },
+    "discovery": {
+      "by": "William Hyde Wollaston",
+      "country": "United Kingdom",
+      "year": 1803
+    }
+  },
+  {
+    "_id": {
+      "$oid": "65732ca900610b6289d60ff4"
+    },
+    "atomicNumber": 46,
+    "symbol": "Pd",
+    "atomicMass": "106.42",
+    "meltingPoint": {
+      "kelvin": "1828.05",
+      "celsius": "1554.9",
+      "fahrenheit": "2830.82"
+    },
+    "name": {
+      "en": "Palladium",
+      "fr": "Palladium"
+    },
+    "phaseAtSTP": "solid",
+    "block": "d",
+    "group": 10,
+    "period": 5,
+    "family": {
+      "isMetal": true,
+      "name": "Transition metal"
+    },
+    "discovery": {
+      "by": "William Hyde Wollaston",
+      "country": "United Kingdom",
+      "year": 1803
+    }
+  },
+  {
+    "_id": {
+      "$oid": "65732ca900610b6289d60ff5"
+    },
+    "atomicNumber": 47,
+    "symbol": "Ag",
+    "atomicMass": "107.8682",
+    "meltingPoint": {
+      "kelvin": "1234.93",
+      "celsius": "961.78",
+      "fahrenheit": "1763.2"
+    },
+    "name": {
+      "en": "Silver",
+      "fr": "Argent"
+    },
+    "phaseAtSTP": "solid",
+    "block": "d",
+    "group": 11,
+    "period": 5,
+    "family": {
+      "isMetal": true,
+      "name": "Transition metal"
+    },
+    "discovery": {
+      "by": "Ancient Egypt",
+      "country": "Egypt",
+      "year": -3000
+    }
+  },
+  {
+    "_id": {
+      "$oid": "65732ca900610b6289d60ff6"
+    },
+    "atomicNumber": 48,
+    "symbol": "Cd",
+    "atomicMass": "112.414",
+    "meltingPoint": {
+      "kelvin": "594.22",
+      "celsius": "321.07",
+      "fahrenheit": "609.93"
+    },
+    "name": {
+      "en": "Cadmium",
+      "fr": "Cadmium"
+    },
+    "phaseAtSTP": "solid",
+    "block": "d",
+    "group": 12,
+    "period": 5,
+    "family": {
+      "isMetal": true,
+      "name": "Transition metal"
+    },
+    "discovery": {
+      "by": "Karl Samuel Leberecht Hermann",
+      "country": "Germany",
+      "year": 1817
+    }
+  },
+  {
+    "_id": {
+      "$oid": "65732ca900610b6289d60ff7"
+    },
+    "atomicNumber": 49,
+    "symbol": "In",
+    "atomicMass": "114.818",
+    "meltingPoint": {
+      "kelvin": "429.75",
+      "celsius": "156.6",
+      "fahrenheit": "313.88"
+    },
+    "name": {
+      "en": "Indium",
+      "fr": "Indium"
+    },
+    "phaseAtSTP": "solid",
+    "block": "p",
+    "group": 13,
+    "period": 5,
+    "family": {
+      "isMetal": true,
+      "name": "Post-transition metal"
+    },
+    "discovery": {
+      "by": "Ferdinand Reich",
+      "country": "Germany",
+      "year": 1863
+    }
+  },
+  {
+    "_id": {
+      "$oid": "65732ca900610b6289d60ff8"
+    },
+    "atomicNumber": 50,
+    "symbol": "Sn",
+    "atomicMass": "118.710",
+    "meltingPoint": {
+      "kelvin": "505.08",
+      "celsius": "231.93",
+      "fahrenheit": "449.47"
+    },
+    "name": {
+      "en": "Tin",
+      "fr": "Étain"
+    },
+    "phaseAtSTP": "solid",
+    "block": "p",
+    "group": 14,
+    "period": 5,
+    "family": {
+      "isMetal": true,
+      "name": "Post-transition metal"
+    },
+    "discovery": {
+      "by": "Ancient Egypt",
+      "country": "Egypt",
+      "year": -3500
+    }
+  },
+  {
+    "_id": {
+      "$oid": "65732ca900610b6289d60ff9"
+    },
+    "atomicNumber": 51,
+    "symbol": "Sb",
+    "atomicMass": "121.760",
+    "meltingPoint": {
+      "kelvin": "903.78",
+      "celsius": "630.63",
+      "fahrenheit": "1167.13"
+    },
+    "name": {
+      "en": "Antimony",
+      "fr": "Antimoine"
+    },
+    "phaseAtSTP": "solid",
+    "block": "p",
+    "group": 15,
+    "period": 5,
+    "family": {
+      "isMetal": false,
+      "name": "Metalloid"
+    },
+    "discovery": {
+      "by": "Ancient Egypt",
+      "country": "Egypt",
+      "year": -3100
+    }
+  },
+  {
+    "_id": {
+      "$oid": "65732ca900610b6289d60ffa"
+    },
+    "atomicNumber": 52,
+    "symbol": "Te",
+    "atomicMass": "127.60",
+    "meltingPoint": {
+      "kelvin": "722.66",
+      "celsius": "449.51",
+      "fahrenheit": "841.12"
+    },
+    "name": {
+      "en": "Tellurium",
+      "fr": "Tellure"
+    },
+    "phaseAtSTP": "solid",
+    "block": "p",
+    "group": 16,
+    "period": 5,
+    "family": {
+      "isMetal": false,
+      "name": "Metalloid"
+    },
+    "discovery": {
+      "by": "Franz-Joseph Müller von Reichenstein",
+      "country": "Romania",
+      "year": 1782
+    }
+  },
+  {
+    "_id": {
+      "$oid": "65732ca900610b6289d60ffb"
+    },
+    "atomicNumber": 53,
+    "symbol": "I",
+    "atomicMass": "126.90447",
+    "meltingPoint": {
+      "kelvin": "386.85",
+      "celsius": "113.7",
+      "fahrenheit": "236.66"
+    },
+    "name": {
+      "en": "Iodine",
+      "fr": "Iode"
+    },
+    "phaseAtSTP": "solid",
+    "block": "p",
+    "group": 17,
+    "period": 5,
+    "family": {
+      "isMetal": false,
+      "name": "Halogen"
+    },
+    "discovery": {
+      "by": "Bernard Courtois",
+      "country": "France",
+      "year": 1811
+    }
+  },
+  {
+    "_id": {
+      "$oid": "65732ca900610b6289d60ffc"
+    },
+    "atomicNumber": 54,
+    "symbol": "Xe",
+    "atomicMass": "131.293",
+    "meltingPoint": {
+      "kelvin": "161.4",
+      "celsius": "-111.75",
+      "fahrenheit": "-169.15"
+    },
+    "name": {
+      "en": "Xenon",
+      "fr": "Xénon"
+    },
+    "phaseAtSTP": "gas",
+    "block": "p",
+    "group": 18,
+    "period": 5,
+    "family": {
+      "isMetal": false,
+      "name": "Noble gas"
+    },
+    "discovery": {
+      "by": "William Ramsay",
+      "country": "United Kingdom",
+      "year": 1898
+    }
+  },
+  {
+    "_id": {
+      "$oid": "65732ca900610b6289d60ffd"
+    },
+    "atomicNumber": 55,
+    "symbol": "Cs",
+    "atomicMass": "132.90545196",
+    "meltingPoint": {
+      "kelvin": "301.7",
+      "celsius": "28.55",
+      "fahrenheit": "83.39"
+    },
+    "name": {
+      "en": "Caesium",
+      "fr": "Césium"
+    },
+    "phaseAtSTP": "solid",
+    "block": "s",
+    "group": 1,
+    "period": 6,
+    "family": {
+      "isMetal": true,
+      "name": "Alkali metal"
+    },
+    "discovery": {
+      "by": "Robert Bunsen",
+      "country": "Germany",
+      "year": 1860
+    }
+  },
+  {
+    "_id": {
+      "$oid": "65732ca900610b6289d60ffe"
+    },
+    "atomicNumber": 56,
+    "symbol": "Ba",
+    "atomicMass": "137.327",
+    "meltingPoint": {
+      "kelvin": "1000",
+      "celsius": "727",
+      "fahrenheit": "1341"
+    },
+    "name": {
+      "en": "Barium",
+      "fr": "Baryum"
+    },
+    "phaseAtSTP": "solid",
+    "block": "s",
+    "group": 2,
+    "period": 6,
+    "family": {
+      "isMetal": true,
+      "name": "Alkaline earth metal"
+    },
+    "discovery": {
+      "by": "Carl Wilhelm Scheele",
+      "country": "Sweden",
+      "year": 1772
+    }
+  },
+  {
+    "_id": {
+      "$oid": "65732ca900610b6289d60fff"
+    },
+    "atomicNumber": 57,
+    "symbol": "La",
+    "atomicMass": "138.90547",
+    "meltingPoint": {
+      "kelvin": "1193",
+      "celsius": "920",
+      "fahrenheit": "1688"
+    },
+    "name": {
+      "en": "Lanthanum",
+      "fr": "Lanthane"
+    },
+    "phaseAtSTP": "solid",
+    "block": "d",
+    "group": 3,
+    "period": 6,
+    "family": {
+      "isMetal": true,
+      "name": "Lanthanide"
+    },
+    "discovery": {
+      "by": "Carl Gustaf Mosander",
+      "country": "Sweden",
+      "year": 1839
+    }
+  },
+  {
+    "_id": {
+      "$oid": "65732ca900610b6289d61000"
+    },
+    "atomicNumber": 58,
+    "symbol": "Ce",
+    "atomicMass": "140.116",
+    "meltingPoint": {
+      "kelvin": "1068",
+      "celsius": "795",
+      "fahrenheit": "1463"
+    },
+    "name": {
+      "en": "Cerium",
+      "fr": "Cérium"
+    },
+    "phaseAtSTP": "solid",
+    "block": "f",
+    "group": 3,
+    "period": 6,
+    "family": {
+      "isMetal": true,
+      "name": "Lanthanide"
+    },
+    "discovery": {
+      "by": "Martin Heinrich Klaproth",
+      "country": "Germany",
+      "year": 1803
+    }
+  },
+  {
+    "_id": {
+      "$oid": "65732ca900610b6289d61001"
+    },
+    "atomicNumber": 59,
+    "symbol": "Pr",
+    "atomicMass": "140.90766",
+    "meltingPoint": {
+      "kelvin": "1208",
+      "celsius": "935",
+      "fahrenheit": "1715"
+    },
+    "name": {
+      "en": "Praseodymium",
+      "fr": "Praséodyme"
+    },
+    "phaseAtSTP": "solid",
+    "block": "f",
+    "group": 3,
+    "period": 6,
+    "family": {
+      "isMetal": true,
+      "name": "Lanthanide"
+    },
+    "discovery": {
+      "by": "Carl Auer von Welsbach",
+      "country": "Austria",
+      "year": 1885
+    }
+  },
+  {
+    "_id": {
+      "$oid": "65732ca900610b6289d61002"
+    },
+    "atomicNumber": 60,
+    "symbol": "Nd",
+    "atomicMass": "144.242",
+    "meltingPoint": {
+      "kelvin": "1297",
+      "celsius": "1024",
+      "fahrenheit": "1875"
+    },
+    "name": {
+      "en": "Neodymium",
+      "fr": "Néodyme"
+    },
+    "phaseAtSTP": "solid",
+    "block": "f",
+    "group": 3,
+    "period": 6,
+    "family": {
+      "isMetal": true,
+      "name": "Lanthanide"
+    },
+    "discovery": {
+      "by": "Carl Auer von Welsbach",
+      "country": "Austria",
+      "year": 1885
+    }
+  },
+  {
+    "_id": {
+      "$oid": "65732ca900610b6289d61003"
+    },
+    "atomicNumber": 61,
+    "symbol": "Pm",
+    "atomicMass": "145",
+    "meltingPoint": {
+      "kelvin": "1315",
+      "celsius": "1042",
+      "fahrenheit": "1908"
+    },
+    "name": {
+      "en": "Promethium",
+      "fr": "Prométhium"
+    },
+    "phaseAtSTP": "solid",
+    "block": "f",
+    "group": 3,
+    "period": 6,
+    "family": {
+      "isMetal": true,
+      "name": "Lanthanide"
+    },
+    "discovery": {
+      "by": "Chien Shiung Wu",
+      "country": "United States",
+      "year": 1945
+    }
+  },
+  {
+    "_id": {
+      "$oid": "65732ca900610b6289d61004"
+    },
+    "atomicNumber": 62,
+    "symbol": "Sm",
+    "atomicMass": "150.36",
+    "meltingPoint": {
+      "kelvin": "1345",
+      "celsius": "1072",
+      "fahrenheit": "1962"
+    },
+    "name": {
+      "en": "Samarium",
+      "fr": "Samarium"
+    },
+    "phaseAtSTP": "solid",
+    "block": "f",
+    "group": 3,
+    "period": 6,
+    "family": {
+      "isMetal": true,
+      "name": "Lanthanide"
+    },
+    "discovery": {
+      "by": "Lecoq de Boisbaudran",
+      "country": "France",
+      "year": 1879
+    }
+  },
+  {
+    "_id": {
+      "$oid": "65732ca900610b6289d61005"
+    },
+    "atomicNumber": 63,
+    "symbol": "Eu",
+    "atomicMass": "151.964",
+    "meltingPoint": {
+      "kelvin": "1099",
+      "celsius": "826",
+      "fahrenheit": "1519"
+    },
+    "name": {
+      "en": "Europium",
+      "fr": "Europium"
+    },
+    "phaseAtSTP": "solid",
+    "block": "f",
+    "group": 3,
+    "period": 6,
+    "family": {
+      "isMetal": true,
+      "name": "Lanthanide"
+    },
+    "discovery": {
+      "by": "Eugène-Anatole Demarçay",
+      "country": "France",
+      "year": 1901
+    }
+  },
+  {
+    "_id": {
+      "$oid": "65732ca900610b6289d61006"
+    },
+    "atomicNumber": 64,
+    "symbol": "Gd",
+    "atomicMass": "157.25",
+    "meltingPoint": {
+      "kelvin": "1585",
+      "celsius": "1312",
+      "fahrenheit": "2394"
+    },
+    "name": {
+      "en": "Gadolinium",
+      "fr": "Gadolinium"
+    },
+    "phaseAtSTP": "solid",
+    "block": "f",
+    "group": 3,
+    "period": 6,
+    "family": {
+      "isMetal": true,
+      "name": "Lanthanide"
+    },
+    "discovery": {
+      "by": "Jean Charles Galissard de Marignac",
+      "country": "Switzerland",
+      "year": 1880
+    }
+  },
+  {
+    "_id": {
+      "$oid": "65732ca900610b6289d61007"
+    },
+    "atomicNumber": 65,
+    "symbol": "Tb",
+    "atomicMass": "158.92535",
+    "meltingPoint": {
+      "kelvin": "1629",
+      "celsius": "1356",
+      "fahrenheit": "2473"
+    },
+    "name": {
+      "en": "Terbium",
+      "fr": "Terbium"
+    },
+    "phaseAtSTP": "solid",
+    "block": "f",
+    "group": 3,
+    "period": 6,
+    "family": {
+      "isMetal": true,
+      "name": "Lanthanide"
+    },
+    "discovery": {
+      "by": "Carl Gustaf Mosander",
+      "country": "Sweden",
+      "year": 1843
+    }
+  },
+  {
+    "_id": {
+      "$oid": "65732ca900610b6289d61008"
+    },
+    "atomicNumber": 66,
+    "symbol": "Dy",
+    "atomicMass": "162.500",
+    "meltingPoint": {
+      "kelvin": "1680",
+      "celsius": "1407",
+      "fahrenheit": "2565"
+    },
+    "name": {
+      "en": "Dysprosium",
+      "fr": "Dysprosium"
+    },
+    "phaseAtSTP": "solid",
+    "block": "f",
+    "group": 3,
+    "period": 6,
+    "family": {
+      "isMetal": true,
+      "name": "Lanthanide"
+    },
+    "discovery": {
+      "by": "Lecoq de Boisbaudran",
+      "country": "France",
+      "year": 1886
+    }
+  },
+  {
+    "_id": {
+      "$oid": "65732ca900610b6289d61009"
+    },
+    "atomicNumber": 67,
+    "symbol": "Ho",
+    "atomicMass": "164.93033",
+    "meltingPoint": {
+      "kelvin": "1734",
+      "celsius": "1461",
+      "fahrenheit": "2662"
+    },
+    "name": {
+      "en": "Holmium",
+      "fr": "Holmium"
+    },
+    "phaseAtSTP": "solid",
+    "block": "f",
+    "group": 3,
+    "period": 6,
+    "family": {
+      "isMetal": true,
+      "name": "Lanthanide"
+    },
+    "discovery": {
+      "by": "Marc Delafontaine",
+      "country": "Switzerland",
+      "year": 1878
+    }
+  },
+  {
+    "_id": {
+      "$oid": "65732ca900610b6289d6100a"
+    },
+    "atomicNumber": 68,
+    "symbol": "Er",
+    "atomicMass": "167.259",
+    "meltingPoint": {
+      "kelvin": "1802",
+      "celsius": "1529",
+      "fahrenheit": "2784"
+    },
+    "name": {
+      "en": "Erbium",
+      "fr": "Erbium"
+    },
+    "phaseAtSTP": "solid",
+    "block": "f",
+    "group": 3,
+    "period": 6,
+    "family": {
+      "isMetal": true,
+      "name": "Lanthanide"
+    },
+    "discovery": {
+      "by": "Carl Gustaf Mosander",
+      "country": "Sweden",
+      "year": 1842
+    }
+  },
+  {
+    "_id": {
+      "$oid": "65732ca900610b6289d6100b"
+    },
+    "atomicNumber": 69,
+    "symbol": "Tm",
+    "atomicMass": "168.93422",
+    "meltingPoint": {
+      "kelvin": "1818",
+      "celsius": "1545",
+      "fahrenheit": "2813"
+    },
+    "name": {
+      "en": "Thulium",
+      "fr": "Thulium"
+    },
+    "phaseAtSTP": "solid",
+    "block": "f",
+    "group": 3,
+    "period": 6,
+    "family": {
+      "isMetal": true,
+      "name": "Lanthanide"
+    },
+    "discovery": {
+      "by": "Per Teodor Cleve",
+      "country": "Sweden",
+      "year": 1879
+    }
+  },
+  {
+    "_id": {
+      "$oid": "65732ca900610b6289d6100c"
+    },
+    "atomicNumber": 70,
+    "symbol": "Yb",
+    "atomicMass": "173.045",
+    "meltingPoint": {
+      "kelvin": "1097",
+      "celsius": "824",
+      "fahrenheit": "1515"
+    },
+    "name": {
+      "en": "Ytterbium",
+      "fr": "Ytterbium"
+    },
+    "phaseAtSTP": "solid",
+    "block": "f",
+    "group": 3,
+    "period": 6,
+    "family": {
+      "isMetal": true,
+      "name": "Lanthanide"
+    },
+    "discovery": {
+      "by": "Jean Charles Galissard de Marignac",
+      "country": "Switzerland",
+      "year": 1878
+    }
+  },
+  {
+    "_id": {
+      "$oid": "65732ca900610b6289d6100d"
+    },
+    "atomicNumber": 71,
+    "symbol": "Lu",
+    "atomicMass": "174.9668",
+    "meltingPoint": {
+      "kelvin": "1925",
+      "celsius": "1652",
+      "fahrenheit": "3006"
+    },
+    "name": {
+      "en": "Lutetium",
+      "fr": "Lutécium"
+    },
+    "phaseAtSTP": "solid",
+    "block": "f",
+    "group": 3,
+    "period": 6,
+    "family": {
+      "isMetal": true,
+      "name": "Lanthanide"
+    },
+    "discovery": {
+      "by": "Georges Urbain",
+      "country": "France",
+      "year": 1907
+    }
+  },
+  {
+    "_id": {
+      "$oid": "65732ca900610b6289d6100e"
+    },
+    "atomicNumber": 72,
+    "symbol": "Hf",
+    "atomicMass": "178.486",
+    "meltingPoint": {
+      "kelvin": "2506",
+      "celsius": "2233",
+      "fahrenheit": "4051"
+    },
+    "name": {
+      "en": "Hafnium",
+      "fr": "Hafnium"
+    },
+    "phaseAtSTP": "solid",
+    "block": "d",
+    "group": 4,
+    "period": 6,
+    "family": {
+      "isMetal": true,
+      "name": "Transition metal"
+    },
+    "discovery": {
+      "by": "Dirk Coster",
+      "country": "Denmark",
+      "year": 1923
+    }
+  },
+  {
+    "_id": {
+      "$oid": "65732ca900610b6289d6100f"
+    },
+    "atomicNumber": 73,
+    "symbol": "Ta",
+    "atomicMass": "180.94788",
+    "meltingPoint": {
+      "kelvin": "3290",
+      "celsius": "3017",
+      "fahrenheit": "5463"
+    },
+    "name": {
+      "en": "Tantalum",
+      "fr": "Tantale"
+    },
+    "phaseAtSTP": "solid",
+    "block": "d",
+    "group": 5,
+    "period": 6,
+    "family": {
+      "isMetal": true,
+      "name": "Transition metal"
+    },
+    "discovery": {
+      "by": "Anders Gustaf Ekeberg",
+      "country": "Sweden",
+      "year": 1802
+    }
+  },
+  {
+    "_id": {
+      "$oid": "65732ca900610b6289d61010"
+    },
+    "atomicNumber": 74,
+    "symbol": "W",
+    "atomicMass": "183.84",
+    "meltingPoint": {
+      "kelvin": "3695",
+      "celsius": "3422",
+      "fahrenheit": "6192"
+    },
+    "name": {
+      "en": "Tungsten",
+      "fr": "Tungstène"
+    },
+    "phaseAtSTP": "solid",
+    "block": "d",
+    "group": 6,
+    "period": 6,
+    "family": {
+      "isMetal": true,
+      "name": "Transition metal"
+    },
+    "discovery": {
+      "by": "Carl Wilhelm Scheele",
+      "country": "Sweden",
+      "year": 1781
+    }
+  },
+  {
+    "_id": {
+      "$oid": "65732ca900610b6289d61011"
+    },
+    "atomicNumber": 75,
+    "symbol": "Re",
+    "atomicMass": "186.207",
+    "meltingPoint": {
+      "kelvin": "3459",
+      "celsius": "3186",
+      "fahrenheit": "5767"
+    },
+    "name": {
+      "en": "Rhenium",
+      "fr": "Rhénium"
+    },
+    "phaseAtSTP": "solid",
+    "block": "d",
+    "group": 7,
+    "period": 6,
+    "family": {
+      "isMetal": true,
+      "name": "Transition metal"
+    },
+    "discovery": {
+      "by": "Masataka Ogawa",
+      "country": "Japan",
+      "year": 1908
+    }
+  },
+  {
+    "_id": {
+      "$oid": "65732ca900610b6289d61012"
+    },
+    "atomicNumber": 76,
+    "symbol": "Os",
+    "atomicMass": "190.23",
+    "meltingPoint": {
+      "kelvin": "3306",
+      "celsius": "3033",
+      "fahrenheit": "5491"
+    },
+    "name": {
+      "en": "Osmium",
+      "fr": "Osmium"
+    },
+    "phaseAtSTP": "solid",
+    "block": "d",
+    "group": 8,
+    "period": 6,
+    "family": {
+      "isMetal": true,
+      "name": "Transition metal"
+    },
+    "discovery": {
+      "by": "Smithson Tennant",
+      "country": "United Kingdom",
+      "year": 1803
+    }
+  },
+  {
+    "_id": {
+      "$oid": "65732ca900610b6289d61013"
+    },
+    "atomicNumber": 77,
+    "symbol": "Ir",
+    "atomicMass": "192.217",
+    "meltingPoint": {
+      "kelvin": "2719",
+      "celsius": "2446",
+      "fahrenheit": "4435"
+    },
+    "name": {
+      "en": "Iridium",
+      "fr": "Iridium"
+    },
+    "phaseAtSTP": "solid",
+    "block": "d",
+    "group": 9,
+    "period": 6,
+    "family": {
+      "isMetal": true,
+      "name": "Transition metal"
+    },
+    "discovery": {
+      "by": "Smithson Tennant",
+      "country": "United Kingdom",
+      "year": 1803
+    }
+  },
+  {
+    "_id": {
+      "$oid": "65732ca900610b6289d61014"
+    },
+    "atomicNumber": 78,
+    "symbol": "Pt",
+    "atomicMass": "195.084",
+    "meltingPoint": {
+      "kelvin": "2041.4",
+      "celsius": "1768.3",
+      "fahrenheit": "3214.9"
+    },
+    "name": {
+      "en": "Platinum",
+      "fr": "Platine"
+    },
+    "phaseAtSTP": "solid",
+    "block": "d",
+    "group": 10,
+    "period": 6,
+    "family": {
+      "isMetal": true,
+      "name": "Transition metal"
+    },
+    "discovery": {
+      "by": "Antonio de Ulloa",
+      "country": "Spain",
+      "year": 1735
+    }
+  },
+  {
+    "_id": {
+      "$oid": "65732ca900610b6289d61015"
+    },
+    "atomicNumber": 79,
+    "symbol": "Au",
+    "atomicMass": "196.966569",
+    "meltingPoint": {
+      "kelvin": "1337.33",
+      "celsius": "1064.18",
+      "fahrenheit": "1947.52"
+    },
+    "name": {
+      "en": "Gold",
+      "fr": "Or"
+    },
+    "phaseAtSTP": "solid",
+    "block": "d",
+    "group": 11,
+    "period": 6,
+    "family": {
+      "isMetal": true,
+      "name": "Transition metal"
+    },
+    "discovery": {
+      "by": "Ancient Egypt",
+      "country": "Egypt",
+      "year": -2500
+    }
+  },
+  {
+    "_id": {
+      "$oid": "65732ca900610b6289d61016"
+    },
+    "atomicNumber": 80,
+    "symbol": "Hg",
+    "atomicMass": "200.592",
+    "meltingPoint": {
+      "kelvin": "234.321",
+      "celsius": "-38.829",
+      "fahrenheit": "-37.89"
+    },
+    "name": {
+      "en": "Mercury",
+      "fr": "Mercure"
+    },
+    "phaseAtSTP": "liquid",
+    "block": "d",
+    "group": 12,
+    "period": 6,
+    "family": {
+      "isMetal": true,
+      "name": "Transition metal"
+    },
+    "discovery": {
+      "by": "Ancient China",
+      "country": "China",
+      "year": -2000
+    }
+  },
+  {
+    "_id": {
+      "$oid": "65732ca900610b6289d61017"
+    },
+    "atomicNumber": 81,
+    "symbol": "Tl",
+    "atomicMass": "204.38",
+    "meltingPoint": {
+      "kelvin": "577",
+      "celsius": "304",
+      "fahrenheit": "579"
+    },
+    "name": {
+      "en": "Thallium",
+      "fr": "Thallium"
+    },
+    "phaseAtSTP": "solid",
+    "block": "p",
+    "group": 13,
+    "period": 6,
+    "family": {
+      "isMetal": true,
+      "name": "Post-transition metal"
+    },
+    "discovery": {
+      "by": "William Crookes",
+      "country": "United Kingdom",
+      "year": 1861
+    }
+  },
+  {
+    "_id": {
+      "$oid": "65732ca900610b6289d61018"
+    },
+    "atomicNumber": 82,
+    "symbol": "Pb",
+    "atomicMass": "207.21",
+    "meltingPoint": {
+      "kelvin": "600.61",
+      "celsius": "327.46",
+      "fahrenheit": "621.43"
+    },
+    "name": {
+      "en": "Lead",
+      "fr": "Plomb"
+    },
+    "phaseAtSTP": "solid",
+    "block": "p",
+    "group": 14,
+    "period": 6,
+    "family": {
+      "isMetal": true,
+      "name": "Post-transition metal"
+    },
+    "discovery": {
+      "by": "Ancient Egypt",
+      "country": "Egypt",
+      "year": -3500
+    }
+  },
+  {
+    "_id": {
+      "$oid": "65732ca900610b6289d61019"
+    },
+    "atomicNumber": 83,
+    "symbol": "Bi",
+    "atomicMass": "208.98040",
+    "meltingPoint": {
+      "kelvin": "544.55",
+      "celsius": "271.4",
+      "fahrenheit": "520.52"
+    },
+    "name": {
+      "en": "Bismuth",
+      "fr": "Bismuth"
+    },
+    "phaseAtSTP": "solid",
+    "block": "p",
+    "group": 15,
+    "period": 6,
+    "family": {
+      "isMetal": true,
+      "name": "Post-transition metal"
+    },
+    "discovery": {
+      "by": "Claude François Geoffroy",
+      "country": "France",
+      "year": 1753
+    }
+  },
+  {
+    "_id": {
+      "$oid": "65732ca900610b6289d6101a"
+    },
+    "atomicNumber": 84,
+    "symbol": "Po",
+    "atomicMass": "(209)",
+    "meltingPoint": {
+      "kelvin": "527",
+      "celsius": "254",
+      "fahrenheit": "489"
+    },
+    "name": {
+      "en": "Polonium",
+      "fr": "Polonium"
+    },
+    "phaseAtSTP": "solid",
+    "block": "p",
+    "group": 16,
+    "period": 6,
+    "family": {
+      "isMetal": false,
+      "name": "Metalloid"
+    },
+    "discovery": {
+      "by": "Pierre Curie",
+      "country": "France",
+      "year": 1898
+    }
+  },
+  {
+    "_id": {
+      "$oid": "65732ca900610b6289d6101b"
+    },
+    "atomicNumber": 85,
+    "symbol": "At",
+    "atomicMass": "(210)",
+    "meltingPoint": {
+      "kelvin": "575",
+      "celsius": "302",
+      "fahrenheit": "575"
+    },
+    "name": {
+      "en": "Astatine",
+      "fr": "Astate"
+    },
+    "phaseAtSTP": "solid",
+    "block": "p",
+    "group": 17,
+    "period": 6,
+    "family": {
+      "isMetal": false,
+      "name": "Halogen"
+    },
+    "discovery": {
+      "by": "Dale R. Corson",
+      "country": "United States",
+      "year": 1940
+    }
+  },
+  {
+    "_id": {
+      "$oid": "65732ca900610b6289d6101c"
+    },
+    "atomicNumber": 86,
+    "symbol": "Rn",
+    "atomicMass": "(222)",
+    "meltingPoint": {
+      "kelvin": "202",
+      "celsius": "-71",
+      "fahrenheit": "-96"
+    },
+    "name": {
+      "en": "Radon",
+      "fr": "Radon"
+    },
+    "phaseAtSTP": "gas",
+    "block": "p",
+    "group": 18,
+    "period": 6,
+    "family": {
+      "isMetal": false,
+      "name": "Noble gas"
+    },
+    "discovery": {
+      "by": "Friedrich Ernst Dorn",
+      "country": "Germany",
+      "year": 1900
+    }
+  },
+  {
+    "_id": {
+      "$oid": "65732ca900610b6289d6101d"
+    },
+    "atomicNumber": 87,
+    "symbol": "Fr",
+    "atomicMass": "(223)",
+    "meltingPoint": {
+      "kelvin": "300",
+      "celsius": "27",
+      "fahrenheit": "80"
+    },
+    "name": {
+      "en": "Francium",
+      "fr": "Francium"
+    },
+    "phaseAtSTP": "solid",
+    "block": "s",
+    "group": 1,
+    "period": 7,
+    "family": {
+      "isMetal": true,
+      "name": "Alkali metal"
+    },
+    "discovery": {
+      "by": "Marguerite Perey",
+      "country": "France",
+      "year": 1939
+    }
+  },
+  {
+    "_id": {
+      "$oid": "65732ca900610b6289d6101e"
+    },
+    "atomicNumber": 88,
+    "symbol": "Ra",
+    "atomicMass": "(226)",
+    "meltingPoint": {
+      "kelvin": "973",
+      "celsius": "700",
+      "fahrenheit": "1292"
+    },
+    "name": {
+      "en": "Radium",
+      "fr": "Radium"
+    },
+    "phaseAtSTP": "solid",
+    "block": "s",
+    "group": 2,
+    "period": 7,
+    "family": {
+      "isMetal": true,
+      "name": "Alkaline earth metal"
+    },
+    "discovery": {
+      "by": "Pierre Curie",
+      "country": "France",
+      "year": 1898
+    }
+  },
+  {
+    "_id": {
+      "$oid": "65732ca900610b6289d6101f"
+    },
+    "atomicNumber": 89,
+    "symbol": "Ac",
+    "atomicMass": "(227)",
+    "meltingPoint": {
+      "kelvin": "1323",
+      "celsius": "1050",
+      "fahrenheit": "1922"
+    },
+    "name": {
+      "en": "Actinium",
+      "fr": "Actinium"
+    },
+    "phaseAtSTP": "solid",
+    "block": "d",
+    "group": 3,
+    "period": 7,
+    "family": {
+      "isMetal": true,
+      "name": "Actinide"
+    },
+    "discovery": {
+      "by": "Friedrich Oskar Giesel",
+      "country": "France",
+      "year": 1902
+    }
+  },
+  {
+    "_id": {
+      "$oid": "65732ca900610b6289d61020"
+    },
+    "atomicNumber": 90,
+    "symbol": "Th",
+    "atomicMass": "232.0377",
+    "meltingPoint": {
+      "kelvin": "2023",
+      "celsius": "1750",
+      "fahrenheit": "3182"
+    },
+    "name": {
+      "en": "Thorium",
+      "fr": "Thorium"
+    },
+    "phaseAtSTP": "solid",
+    "block": "f",
+    "group": 3,
+    "period": 7,
+    "family": {
+      "isMetal": true,
+      "name": "Actinide"
+    },
+    "discovery": {
+      "by": "Jöns Jacob Berzelius",
+      "country": "Sweden",
+      "year": 1828
+    }
+  },
+  {
+    "_id": {
+      "$oid": "65732ca900610b6289d61021"
+    },
+    "atomicNumber": 91,
+    "symbol": "Pa",
+    "atomicMass": "231.03588",
+    "meltingPoint": {
+      "kelvin": "1845",
+      "celsius": "1572",
+      "fahrenheit": "2862"
+    },
+    "name": {
+      "en": "Protactinium",
+      "fr": "Protactinium"
+    },
+    "phaseAtSTP": "solid",
+    "block": "f",
+    "group": 3,
+    "period": 7,
+    "family": {
+      "isMetal": true,
+      "name": "Actinide"
+    },
+    "discovery": {
+      "by": "William Crookes",
+      "country": "United Kingdom",
+      "year": 1913
+    }
+  },
+  {
+    "_id": {
+      "$oid": "65732ca900610b6289d61022"
+    },
+    "atomicNumber": 92,
+    "symbol": "U",
+    "atomicMass": "238.02891",
+    "meltingPoint": {
+      "kelvin": "1405.3",
+      "celsius": "1132.15",
+      "fahrenheit": "2070.07"
+    },
+    "name": {
+      "en": "Uranium",
+      "fr": "Uranium"
+    },
+    "phaseAtSTP": "solid",
+    "block": "f",
+    "group": 3,
+    "period": 7,
+    "family": {
+      "isMetal": true,
+      "name": "Actinide"
+    },
+    "discovery": {
+      "by": "Martin Heinrich Klaproth",
+      "country": "Germany",
+      "year": 1789
+    }
+  },
+  {
+    "_id": {
+      "$oid": "65732ca900610b6289d61023"
+    },
+    "atomicNumber": 93,
+    "symbol": "Np",
+    "atomicMass": "(237)",
+    "meltingPoint": {
+      "kelvin": "917",
+      "celsius": "644",
+      "fahrenheit": "1191"
+    },
+    "name": {
+      "en": "Neptunium",
+      "fr": "Neptunium"
+    },
+    "phaseAtSTP": "solid",
+    "block": "f",
+    "group": 3,
+    "period": 7,
+    "family": {
+      "isMetal": true,
+      "name": "Actinide"
+    },
+    "discovery": {
+      "by": "Edwin McMillan",
+      "country": "United States",
+      "year": 1940
+    }
+  },
+  {
+    "_id": {
+      "$oid": "65732ca900610b6289d61024"
+    },
+    "atomicNumber": 94,
+    "symbol": "Pu",
+    "atomicMass": "(244)",
+    "meltingPoint": {
+      "kelvin": "913",
+      "celsius": "640",
+      "fahrenheit": "1180"
+    },
+    "name": {
+      "en": "Plutonium",
+      "fr": "Plutonium"
+    },
+    "phaseAtSTP": "solid",
+    "block": "f",
+    "group": 3,
+    "period": 7,
+    "family": {
+      "isMetal": true,
+      "name": "Actinide"
+    },
+    "discovery": {
+      "by": "Glenn T. Seaborg",
+      "country": "United States",
+      "year": 1940
+    }
+  },
+  {
+    "_id": {
+      "$oid": "65732ca900610b6289d61025"
+    },
+    "atomicNumber": 95,
+    "symbol": "Am",
+    "atomicMass": "(243)",
+    "meltingPoint": {
+      "kelvin": "1449",
+      "celsius": "1176",
+      "fahrenheit": "2149"
+    },
+    "name": {
+      "en": "Americium",
+      "fr": "Américium"
+    },
+    "phaseAtSTP": "solid",
+    "block": "f",
+    "group": 3,
+    "period": 7,
+    "family": {
+      "isMetal": true,
+      "name": "Actinide"
+    },
+    "discovery": {
+      "by": "Glenn T. Seaborg",
+      "country": "United States",
+      "year": 1944
+    }
+  },
+  {
+    "_id": {
+      "$oid": "65732ca900610b6289d61026"
+    },
+    "atomicNumber": 96,
+    "symbol": "Cm",
+    "atomicMass": "(247)",
+    "meltingPoint": {
+      "kelvin": "1613",
+      "celsius": "1340",
+      "fahrenheit": "2444"
+    },
+    "name": {
+      "en": "Curium",
+      "fr": "Curium"
+    },
+    "phaseAtSTP": "solid",
+    "block": "f",
+    "group": 3,
+    "period": 7,
+    "family": {
+      "isMetal": true,
+      "name": "Actinide"
+    },
+    "discovery": {
+      "by": "Glenn T. Seaborg",
+      "country": "United States",
+      "year": 1944
+    }
+  },
+  {
+    "_id": {
+      "$oid": "65732ca900610b6289d61027"
+    },
+    "atomicNumber": 97,
+    "symbol": "Bk",
+    "atomicMass": "(247)",
+    "meltingPoint": {
+      "kelvin": "1259",
+      "celsius": "986",
+      "fahrenheit": "1807"
+    },
+    "name": {
+      "en": "Berkelium",
+      "fr": "Berkélium"
+    },
+    "phaseAtSTP": "solid",
+    "block": "f",
+    "group": 3,
+    "period": 7,
+    "family": {
+      "isMetal": true,
+      "name": "Actinide"
+    },
+    "discovery": {
+      "by": "Lawrence Berkeley National Laboratory",
+      "country": "United States",
+      "year": 1949
+    }
+  },
+  {
+    "_id": {
+      "$oid": "65732ca900610b6289d61028"
+    },
+    "atomicNumber": 98,
+    "symbol": "Cf",
+    "atomicMass": "(251)",
+    "meltingPoint": {
+      "kelvin": "1173",
+      "celsius": "900",
+      "fahrenheit": "1652"
+    },
+    "name": {
+      "en": "Californium",
+      "fr": "Californium"
+    },
+    "phaseAtSTP": "solid",
+    "block": "f",
+    "group": 3,
+    "period": 7,
+    "family": {
+      "isMetal": true,
+      "name": "Actinide"
+    },
+    "discovery": {
+      "by": "Lawrence Berkeley National Laboratory",
+      "country": "United States",
+      "year": 1950
+    }
+  },
+  {
+    "_id": {
+      "$oid": "65732ca900610b6289d61029"
+    },
+    "atomicNumber": 99,
+    "symbol": "Es",
+    "atomicMass": "(252)",
+    "meltingPoint": {
+      "kelvin": "1133",
+      "celsius": "860",
+      "fahrenheit": "1580"
+    },
+    "name": {
+      "en": "Einsteinium",
+      "fr": "Einsteinium"
+    },
+    "phaseAtSTP": "solid",
+    "block": "f",
+    "group": 3,
+    "period": 7,
+    "family": {
+      "isMetal": false,
+      "name": "Actinide"
+    },
+    "discovery": {
+      "by": "Lawrence Berkeley National Laboratory",
+      "country": "United States",
+      "year": 1952
+    }
+  },
+  {
+    "_id": {
+      "$oid": "65732ca900610b6289d6102a"
+    },
+    "atomicNumber": 100,
+    "symbol": "Fm",
+    "atomicMass": "(257)",
+    "meltingPoint": {
+      "kelvin": "1125",
+      "celsius": "852",
+      "fahrenheit": "1566"
+    },
+    "name": {
+      "en": "Fermium",
+      "fr": "Fermium"
+    },
+    "phaseAtSTP": "solid",
+    "block": "f",
+    "group": 3,
+    "period": 7,
+    "family": {
+      "isMetal": false,
+      "name": "Actinide"
+    },
+    "discovery": {
+      "by": "Lawrence Berkeley National Laboratory",
+      "country": "United States",
+      "year": 1952
+    }
+  },
+  {
+    "_id": {
+      "$oid": "65732ca900610b6289d6102b"
+    },
+    "atomicNumber": 101,
+    "symbol": "Md",
+    "atomicMass": "(258)",
+    "meltingPoint": {
+      "kelvin": "1100",
+      "celsius": "827",
+      "fahrenheit": "1521"
+    },
+    "name": {
+      "en": "Mendelevium",
+      "fr": "Mendélévium"
+    },
+    "phaseAtSTP": "solid",
+    "block": "f",
+    "group": 3,
+    "period": 7,
+    "family": {
+      "isMetal": false,
+      "name": "Actinide"
+    },
+    "discovery": {
+      "by": "Lawrence Berkeley National Laboratory",
+      "country": "United States",
+      "year": 1955
+    }
+  },
+  {
+    "_id": {
+      "$oid": "65732ca900610b6289d6102c"
+    },
+    "atomicNumber": 102,
+    "symbol": "No",
+    "atomicMass": "(259)",
+    "meltingPoint": {
+      "kelvin": "1100",
+      "celsius": "827",
+      "fahrenheit": "1521"
+    },
+    "name": {
+      "en": "Nobelium",
+      "fr": "Nobélium"
+    },
+    "phaseAtSTP": "solid",
+    "block": "f",
+    "group": 3,
+    "period": 7,
+    "family": {
+      "isMetal": false,
+      "name": "Actinide"
+    },
+    "discovery": {
+      "by": "Joint Institute for Nuclear Research",
+      "country": "Russia",
+      "year": 1966
+    }
+  },
+  {
+    "_id": {
+      "$oid": "65732ca900610b6289d6102d"
+    },
+    "atomicNumber": 103,
+    "symbol": "Lr",
+    "atomicMass": "(266)",
+    "meltingPoint": {
+      "kelvin": "1900",
+      "celsius": "1627",
+      "fahrenheit": "2961"
+    },
+    "name": {
+      "en": "Lawrencium",
+      "fr": "Lawrencium"
+    },
+    "phaseAtSTP": "solid",
+    "block": "d",
+    "group": 3,
+    "period": 7,
+    "family": {
+      "isMetal": false,
+      "name": "Actinide"
+    },
+    "discovery": {
+      "by": "Lawrence Berkeley National Laboratory",
+      "country": "United States",
+      "year": 1961
+    }
+  },
+  {
+    "_id": {
+      "$oid": "65732ca900610b6289d6102e"
+    },
+    "atomicNumber": 104,
+    "symbol": "Rf",
+    "atomicMass": "(267)",
+    "meltingPoint": {
+      "kelvin": "2400",
+      "celsius": "2127",
+      "fahrenheit": "3859"
+    },
+    "name": {
+      "en": "Rutherfordium",
+      "fr": "Rutherfordium"
+    },
+    "phaseAtSTP": "solid",
+    "block": "d",
+    "group": 4,
+    "period": 7,
+    "family": {
+      "isMetal": true,
+      "name": "Transition metal"
+    },
+    "discovery": {
+      "by": "Joint Institute for Nuclear Research",
+      "country": "Russia",
+      "year": 1964
+    }
+  },
+  {
+    "_id": {
+      "$oid": "65732ca900610b6289d6102f"
+    },
+    "atomicNumber": 105,
+    "symbol": "Db",
+    "atomicMass": "(268)",
+    "meltingPoint": {
+      "kelvin": "5800",
+      "celsius": "5527",
+      "fahrenheit": "9979"
+    },
+    "name": {
+      "en": "Dubnium",
+      "fr": "Dubnium"
+    },
+    "phaseAtSTP": "solid",
+    "block": "d",
+    "group": 5,
+    "period": 7,
+    "family": {
+      "isMetal": true,
+      "name": "Transition metal"
+    },
+    "discovery": {
+      "by": "Joint Institute for Nuclear Research",
+      "country": "Russia",
+      "year": 1967
+    }
+  },
+  {
+    "_id": {
+      "$oid": "65732ca900610b6289d61030"
+    },
+    "atomicNumber": 106,
+    "symbol": "Sg",
+    "atomicMass": "(269)",
+    "meltingPoint": {
+      "kelvin": "5300",
+      "celsius": "5027",
+      "fahrenheit": "9081"
+    },
+    "name": {
+      "en": "Seaborgium",
+      "fr": "Seaborgium"
+    },
+    "phaseAtSTP": "solid",
+    "block": "d",
+    "group": 6,
+    "period": 7,
+    "family": {
+      "isMetal": true,
+      "name": "Transition metal"
+    },
+    "discovery": {
+      "by": "Lawrence Berkeley National Laboratory",
+      "country": "United States",
+      "year": 1974
+    }
+  },
+  {
+    "_id": {
+      "$oid": "65732ca900610b6289d61031"
+    },
+    "atomicNumber": 107,
+    "symbol": "Bh",
+    "atomicMass": "(270)",
+    "meltingPoint": {
+      "kelvin": "4700",
+      "celsius": "4427",
+      "fahrenheit": "8001"
+    },
+    "name": {
+      "en": "Bohrium",
+      "fr": "Bohrium"
+    },
+    "phaseAtSTP": "solid",
+    "block": "d",
+    "group": 7,
+    "period": 7,
+    "family": {
+      "isMetal": true,
+      "name": "Transition metal"
+    },
+    "discovery": {
+      "by": "Gesellschaft für Schwerionenforschung",
+      "country": "Germany",
+      "year": 1981
+    }
+  },
+  {
+    "_id": {
+      "$oid": "65732ca900610b6289d61032"
+    },
+    "atomicNumber": 108,
+    "symbol": "Hs",
+    "atomicMass": "(269)",
+    "meltingPoint": {
+      "kelvin": "4400",
+      "celsius": "4127",
+      "fahrenheit": "7461"
+    },
+    "name": {
+      "en": "Hassium",
+      "fr": "Hassium"
+    },
+    "phaseAtSTP": "solid",
+    "block": "d",
+    "group": 8,
+    "period": 7,
+    "family": {
+      "isMetal": true,
+      "name": "Transition metal"
+    },
+    "discovery": {
+      "by": "Gesellschaft für Schwerionenforschung",
+      "country": "Germany",
+      "year": 1984
+    }
+  },
+  {
+    "_id": {
+      "$oid": "65732ca900610b6289d61033"
+    },
+    "atomicNumber": 109,
+    "symbol": "Mt",
+    "atomicMass": "(278)",
+    "meltingPoint": {
+      "kelvin": "Unknown",
+      "celsius": "Unknown",
+      "fahrenheit": "Unknown"
+    },
+    "name": {
+      "en": "Meitnerium",
+      "fr": "Meitnerium"
+    },
+    "phaseAtSTP": "solid",
+    "block": "d",
+    "group": 9,
+    "period": 7,
+    "family": {
+      "isMetal": true,
+      "name": "Transition metal"
+    },
+    "discovery": {
+      "by": "Gesellschaft für Schwerionenforschung",
+      "country": "Germany",
+      "year": 1982
+    }
+  },
+  {
+    "_id": {
+      "$oid": "65732ca900610b6289d61034"
+    },
+    "atomicNumber": 110,
+    "symbol": "Ds",
+    "atomicMass": "(281)",
+    "meltingPoint": {
+      "kelvin": "Unknown",
+      "celsius": "Unknown",
+      "fahrenheit": "Unknown"
+    },
+    "name": {
+      "en": "Darmstadtium",
+      "fr": "Darmstadtium"
+    },
+    "phaseAtSTP": "solid",
+    "block": "d",
+    "group": 10,
+    "period": 7,
+    "family": {
+      "isMetal": true,
+      "name": "Transition metal"
+    },
+    "discovery": {
+      "by": "Gesellschaft für Schwerionenforschung",
+      "country": "Germany",
+      "year": 1994
+    }
+  },
+  {
+    "_id": {
+      "$oid": "65732ca900610b6289d61035"
+    },
+    "atomicNumber": 111,
+    "symbol": "Rg",
+    "atomicMass": "(282)",
+    "meltingPoint": {
+      "kelvin": "Unknown",
+      "celsius": "Unknown",
+      "fahrenheit": "Unknown"
+    },
+    "name": {
+      "en": "Roentgenium",
+      "fr": "Roentgenium"
+    },
+    "phaseAtSTP": "solid",
+    "block": "d",
+    "group": 11,
+    "period": 7,
+    "family": {
+      "isMetal": true,
+      "name": "Transition metal"
+    },
+    "discovery": {
+      "by": "Gesellschaft für Schwerionenforschung",
+      "country": "Germany",
+      "year": 1994
+    }
+  },
+  {
+    "_id": {
+      "$oid": "65732ca900610b6289d61036"
+    },
+    "atomicNumber": 112,
+    "symbol": "Cn",
+    "atomicMass": "(285)",
+    "meltingPoint": {
+      "kelvin": "Unknown",
+      "celsius": "Unknown",
+      "fahrenheit": "Unknown"
+    },
+    "name": {
+      "en": "Copernicium",
+      "fr": "Copernicium"
+    },
+    "phaseAtSTP": "solid",
+    "block": "d",
+    "group": 12,
+    "period": 7,
+    "family": {
+      "isMetal": true,
+      "name": "Transition metal"
+    },
+    "discovery": {
+      "by": "Gesellschaft für Schwerionenforschung",
+      "country": "Germany",
+      "year": 1996
+    }
+  },
+  {
+    "_id": {
+      "$oid": "65732ca900610b6289d61037"
+    },
+    "atomicNumber": 113,
+    "symbol": "Nh",
+    "atomicMass": "(286)",
+    "meltingPoint": {
+      "kelvin": "Unknown",
+      "celsius": "Unknown",
+      "fahrenheit": "Unknown"
+    },
+    "name": {
+      "en": "Nihonium",
+      "fr": "Nihonium"
+    },
+    "phaseAtSTP": "solid",
+    "block": "p",
+    "group": 13,
+    "period": 7,
+    "family": {
+      "isMetal": true,
+      "name": "Post-transition metal"
+    },
+    "discovery": {
+      "by": "RIKEN",
+      "country": "Japan",
+      "year": 2004
+    }
+  },
+  {
+    "_id": {
+      "$oid": "65732ca900610b6289d61038"
+    },
+    "atomicNumber": 114,
+    "symbol": "Fl",
+    "atomicMass": "(289)",
+    "meltingPoint": {
+      "kelvin": "Unknown",
+      "celsius": "Unknown",
+      "fahrenheit": "Unknown"
+    },
+    "name": {
+      "en": "Flerovium",
+      "fr": "Flérovium"
+    },
+    "phaseAtSTP": "solid",
+    "block": "p",
+    "group": 14,
+    "period": 7,
+    "family": {
+      "isMetal": true,
+      "name": "Post-transition metal"
+    },
+    "discovery": {
+      "by": "Joint Institute for Nuclear Research",
+      "country": "Russia",
+      "year": 1998
+    }
+  },
+  {
+    "_id": {
+      "$oid": "65732ca900610b6289d61039"
+    },
+    "atomicNumber": 115,
+    "symbol": "Mc",
+    "atomicMass": "(290)",
+    "meltingPoint": {
+      "kelvin": "Unknown",
+      "celsius": "Unknown",
+      "fahrenheit": "Unknown"
+    },
+    "name": {
+      "en": "Moscovium",
+      "fr": "Moscovium"
+    },
+    "phaseAtSTP": "solid",
+    "block": "p",
+    "group": 15,
+    "period": 7,
+    "family": {
+      "isMetal": true,
+      "name": "Post-transition metal"
+    },
+    "discovery": {
+      "by": "Joint Institute for Nuclear Research",
+      "country": "Russia",
+      "year": 2003
+    }
+  },
+  {
+    "_id": {
+      "$oid": "65732ca900610b6289d6103a"
+    },
+    "atomicNumber": 116,
+    "symbol": "Lv",
+    "atomicMass": "(293)",
+    "meltingPoint": {
+      "kelvin": "Unknown",
+      "celsius": "Unknown",
+      "fahrenheit": "Unknown"
+    },
+    "name": {
+      "en": "Livermorium",
+      "fr": "Livermorium"
+    },
+    "phaseAtSTP": "solid",
+    "block": "p",
+    "group": 16,
+    "period": 7,
+    "family": {
+      "isMetal": true,
+      "name": "Post-transition metal"
+    },
+    "discovery": {
+      "by": "Joint Institute for Nuclear Research",
+      "country": "Russia",
+      "year": 2000
+    }
+  },
+  {
+    "_id": {
+      "$oid": "65732ca900610b6289d6103b"
+    },
+    "atomicNumber": 117,
+    "symbol": "Ts",
+    "atomicMass": "(294)",
+    "meltingPoint": {
+      "kelvin": "Unknown",
+      "celsius": "Unknown",
+      "fahrenheit": "Unknown"
+    },
+    "name": {
+      "en": "Tennessine",
+      "fr": "Tennesse"
+    },
+    "phaseAtSTP": "solid",
+    "block": "p",
+    "group": 17,
+    "period": 7,
+    "family": {
+      "isMetal": true,
+      "name": "Halogen"
+    },
+    "discovery": {
+      "by": "Joint Institute for Nuclear Research",
+      "country": "Russia",
+      "year": 2010
+    }
+  },
+  {
+    "_id": {
+      "$oid": "65732ca900610b6289d6103c"
+    },
+    "atomicNumber": 118,
+    "symbol": "Og",
+    "atomicMass": "(294)",
+    "meltingPoint": {
+      "kelvin": "350",
+      "celsius": "77",
+      "fahrenheit": "171"
+    },
+    "name": {
+      "en": "Oganesson",
+      "fr": "Oganesson"
+    },
+    "phaseAtSTP": "solid",
+    "block": "p",
+    "group": 18,
+    "period": 7,
+    "family": {
+      "isMetal": false,
+      "name": "Noble gas"
+    },
+    "discovery": {
+      "by": "Joint Institute for Nuclear Research",
+      "country": "Russia",
+      "year": 2002
+    }
+  }
+]
