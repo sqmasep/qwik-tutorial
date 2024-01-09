@@ -11,10 +11,16 @@ export const PeriodicTable = component$(() => {
   const selectedFamily = useSignal("All");
   const families = new Set(atoms.value.map((atom) => atom.family.name));
 
+  const search = useSignal("");
+
   const renderAtom = (atom: Atom) => {
     const shouldShow =
       selectedFamily.value === "All" ||
       selectedFamily.value === atom.family.name;
+
+    const shouldScale = atom.name.fr
+      .toLowerCase()
+      .includes(search.value.toLowerCase());
 
     return (
       <div
@@ -23,6 +29,7 @@ export const PeriodicTable = component$(() => {
           backgroundColor: shouldShow
             ? colorMap.family[atom.family.name] + "60"
             : "#333",
+          scale: search.value.length === 0 ? 1 : shouldScale ? 1.1 : 0.5,
           border:
             "1px solid" + shouldShow
               ? colorMap.family[atom.family.name] + "90"
@@ -45,6 +52,12 @@ export const PeriodicTable = component$(() => {
         value={selectedFamily}
         class="mx-auto my-2 flex max-w-3xl justify-center"
       />
+
+      <input
+        bind:value={search}
+        class="mx-auto my-2 flex max-w-3xl justify-center rounded-full border border-zinc-500 bg-transparent px-4 py-2 outline-none"
+      />
+
       <div class="mx-auto grid max-w-7xl grid-cols-18 gap-2">
         <div>{renderAtom(atoms.value[0])}</div>
         <div class="col-span-16" />
