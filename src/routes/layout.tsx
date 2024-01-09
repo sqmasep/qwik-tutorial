@@ -4,7 +4,7 @@ import { parse } from "valibot";
 import { atomsSchema } from "~/lib/validation/atom";
 
 export const useAtoms = routeLoader$(async ({ url }) => {
-  const res = await fetch(`${url}/data/atoms.json`);
+  const res = await fetch(`${url.origin}/data/atoms.json`);
   const data = await res.json();
 
   const safeData = parse(atomsSchema, data);
