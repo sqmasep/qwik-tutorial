@@ -14,7 +14,7 @@ const ReactPeriodicTable: React.FC = () => {
   };
 
   useEffect(() => {
-    fetch("../../atoms.json")
+    fetch("atoms.json")
       .then((res) => res.json())
       .then((data) => {
         const safeData = parse(atomsSchema, data);
