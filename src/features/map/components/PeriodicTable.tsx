@@ -1,4 +1,4 @@
-import { $, component$, useSignal } from "@builder.io/qwik";
+import { component$, useSignal } from "@builder.io/qwik";
 import { FamilySelect } from "~/components/router-head/FamilySelect";
 import { colorMap } from "~/data/colorMap";
 import type { Atom } from "~/lib/validation/atom";
@@ -8,13 +8,25 @@ import { createArray } from "~/utils/createSlicedArray";
 export const PeriodicTable = component$(() => {
   const atoms = useAtoms();
 
+  const selectedFamily = useSignal("All");
+  const families = new Set(atoms.value.map((atom) => atom.family.name));
+
   const renderAtom = (atom: Atom) => {
+    const shouldShow =
+      selectedFamily.value === "All" ||
+      selectedFamily.value === atom.family.name;
+
     return (
       <div
-        class="relative flex h-16 w-16 items-center justify-center rounded "
+        class="relative flex h-16 w-16 items-center justify-center rounded transition-all"
         style={{
-          backgroundColor: colorMap.family[atom.family.name] + "60",
-          border: "1px solid" + colorMap.family[atom.family.name] + "90",
+          backgroundColor: shouldShow
+            ? colorMap.family[atom.family.name] + "60"
+            : "#333",
+          border:
+            "1px solid" + shouldShow
+              ? colorMap.family[atom.family.name] + "90"
+              : "#444",
         }}
       >
         <span class="absolute left-2 top-0 text-sm">{atom.atomicNumber}</span>
@@ -26,13 +38,13 @@ export const PeriodicTable = component$(() => {
 
   if (!atoms.value.length) return null;
 
-  const selectedFamily = useSignal("All");
-  const families = new Set(atoms.value.map((atom) => atom.family.name));
-
   return (
     <div>
-      <FamilySelect options={["All", ...families]} value={selectedFamily} />
-      {selectedFamily.value}
+      <FamilySelect
+        options={["All", ...families]}
+        value={selectedFamily}
+        class="mx-auto my-2 flex max-w-3xl justify-center"
+      />
       <div class="mx-auto grid max-w-7xl grid-cols-18 gap-2">
         <div>{renderAtom(atoms.value[0])}</div>
         <div class="col-span-16" />
