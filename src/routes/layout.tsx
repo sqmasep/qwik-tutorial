@@ -1,22 +1,15 @@
 import { component$, Slot } from "@builder.io/qwik";
 import { routeLoader$ } from "@builder.io/qwik-city";
-import type { RequestHandler } from "@builder.io/qwik-city";
+import { parse } from "valibot";
+import { atomsSchema } from "~/lib/validation/atom";
 
-export const onGet: RequestHandler = async ({ cacheControl }) => {
-  // Control caching for this request for best performance and to reduce hosting costs:
-  // https://qwik.builder.io/docs/caching/
-  cacheControl({
-    // Always serve a cached response by default, up to a week stale
-    staleWhileRevalidate: 60 * 60 * 24 * 7,
-    // Max once every 5 seconds, revalidate on the server to get a fresh version of this page
-    maxAge: 5,
-  });
-};
+export const useAtoms = routeLoader$(async ({ url }) => {
+  const res = await fetch(`${url}/data/atoms.json`);
+  const data = await res.json();
 
-export const useServerTimeLoader = routeLoader$(() => {
-  return {
-    date: new Date().toISOString(),
-  };
+  const safeData = parse(atomsSchema, data);
+
+  return safeData;
 });
 
 export default component$(() => {

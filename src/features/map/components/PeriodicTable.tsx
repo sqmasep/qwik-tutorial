@@ -1,80 +1,64 @@
-/** @jsxImportSource react */
-import { qwikify$ } from "@builder.io/qwik-react";
-import { useEffect, useState } from "react";
-import { parse } from "valibot";
-import type { Atom, Atoms } from "~/lib/validation/atom";
-import { atomsSchema } from "~/lib/validation/atom";
+import { component$ } from "@builder.io/qwik";
+import type { Atom } from "~/lib/validation/atom";
+import { useAtoms } from "~/routes/layout";
 import { createArray } from "~/utils/createSlicedArray";
 
-const ReactPeriodicTable: React.FC = () => {
-  const [atoms, setAtoms] = useState<Atoms>([]);
+export const PeriodicTable = component$(() => {
+  const atoms = useAtoms();
 
   const renderAtom = (atom: Atom) => {
     return <div>{atom.symbol}</div>;
   };
 
-  useEffect(() => {
-    fetch("../../atoms.json")
-      .then((res) => res.json())
-      .then((data) => {
-        const safeData = parse(atomsSchema, data);
-        setAtoms(safeData);
-      });
-  }, []);
-
-  if (!atoms.length) return null;
+  if (!atoms.value.length) return null;
 
   return (
     <div>
-      <div className="grid grid-cols-18">
-        <div>{renderAtom(atoms[0])}</div>
-        <div className="col-span-16" />
-        <div>{renderAtom(atoms[1])}</div>
+      <div class="grid grid-cols-18">
+        <div>{renderAtom(atoms.value[0])}</div>
+        <div class="col-span-16" />
+        <div>{renderAtom(atoms.value[1])}</div>
 
-        <div>{renderAtom(atoms[2])}</div>
-        <div>{renderAtom(atoms[3])}</div>
-        <div className="col-span-10" />
+        <div>{renderAtom(atoms.value[2])}</div>
+        <div>{renderAtom(atoms.value[3])}</div>
+        <div class="col-span-10" />
 
         {createArray(4, 9).map((value) => (
-          <div key={value}>{renderAtom(atoms[value])}</div>
+          <div key={value}>{renderAtom(atoms.value[value])}</div>
         ))}
 
-        <div>{renderAtom(atoms[10])}</div>
-        <div>{renderAtom(atoms[11])}</div>
-        <div className="col-span-10" />
+        <div>{renderAtom(atoms.value[10])}</div>
+        <div>{renderAtom(atoms.value[11])}</div>
+        <div class="col-span-10" />
 
         {createArray(12, 56).map((value) => (
-          <div key={value}>{renderAtom(atoms[value])}</div>
+          <div key={value}>{renderAtom(atoms.value[value])}</div>
         ))}
 
         {createArray(71, 88).map((value) => (
-          <div key={value}>{renderAtom(atoms[value])}</div>
+          <div key={value}>{renderAtom(atoms.value[value])}</div>
         ))}
 
         {createArray(103, 117).map((value) => (
-          <div key={value}>{renderAtom(atoms[value])}</div>
+          <div key={value}>{renderAtom(atoms.value[value])}</div>
         ))}
 
-        <div className="col-span-18 h-6" />
+        <div class="col-span-18 h-6" />
 
-        <div className="col-span-3" />
+        <div class="col-span-3" />
         {createArray(57, 70).map((value) => (
-          <div key={value}>{renderAtom(atoms[value])}</div>
+          <div key={value}>{renderAtom(atoms.value[value])}</div>
         ))}
 
-        <div className="col-span-1" />
+        <div class="col-span-1" />
 
-        <div className="col-span-3" />
+        <div class="col-span-3" />
         {createArray(89, 102).map((value) => (
-          <div key={value}>{renderAtom(atoms[value])}</div>
+          <div key={value}>{renderAtom(atoms.value[value])}</div>
         ))}
 
-        <div className="col-span-1" />
+        <div class="col-span-1" />
       </div>
     </div>
   );
-};
-
-export const PeriodicTable = qwikify$(ReactPeriodicTable, {
-  eagerness: "load",
 });
