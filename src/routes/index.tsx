@@ -1,12 +1,11 @@
 import { component$ } from "@builder.io/qwik";
-import { Counter } from "~/integrations/react/Counter";
+import { PeriodicTable } from "~/features/map/components/PeriodicTable";
 
 export default component$(() => {
   return (
     <>
-      <div class="">
-        <div>a</div>
-        <Counter />
+      <div>
+        <PeriodicTable />
       </div>
     </>
   );
