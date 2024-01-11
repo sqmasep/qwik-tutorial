@@ -1,6 +1,7 @@
-import { component$ } from "@builder.io/qwik";
-import { Link } from "@builder.io/qwik-city";
+import { component$, useSignal } from "@builder.io/qwik";
+import { FamilySelect } from "~/components/router-head/FamilySelect";
 import { colorMap } from "~/data/colorMap";
+import { Link } from "@builder.io/qwik-city";
 import type { Atom } from "~/lib/validation/atom";
 import { useAtoms } from "~/routes/layout";
 import { createArray } from "~/utils/createSlicedArray";
@@ -8,14 +9,33 @@ import { createArray } from "~/utils/createSlicedArray";
 export const PeriodicTable = component$(() => {
   const atoms = useAtoms();
 
+  const selectedFamily = useSignal("All");
+  const families = new Set(atoms.value.map((atom) => atom.family.name));
+
+  const search = useSignal("");
+
   const renderAtom = (atom: Atom) => {
+    const shouldShow =
+      selectedFamily.value === "All" ||
+      selectedFamily.value === atom.family.name;
+
+    const shouldScale = atom.name.fr
+      .toLowerCase()
+      .includes(search.value.toLowerCase());
+
     return (
       <Link
-        href={"/atom/" + atom.atomicNumber}
-        class="relative flex h-16 w-16 items-center justify-center rounded "
+        href={`/atom/${atom.atomicNumber}`}
+        class="relative flex h-16 w-16 items-center justify-center rounded transition-all"
         style={{
-          backgroundColor: colorMap.family[atom.family.name] + "60",
-          border: "1px solid" + colorMap.family[atom.family.name] + "90",
+          backgroundColor: shouldShow
+            ? colorMap.family[atom.family.name] + "60"
+            : "#333",
+          scale: search.value.length === 0 ? 1 : shouldScale ? 1.1 : 0.5,
+          border:
+            "1px solid" + shouldShow
+              ? colorMap.family[atom.family.name] + "90"
+              : "#444",
         }}
       >
         <span class="absolute left-2 top-0 text-sm">{atom.atomicNumber}</span>
@@ -29,6 +49,17 @@ export const PeriodicTable = component$(() => {
 
   return (
     <div>
+      <FamilySelect
+        options={["All", ...families]}
+        value={selectedFamily}
+        class="mx-auto my-2 flex max-w-3xl justify-center"
+      />
+
+      <input
+        bind:value={search}
+        class="mx-auto my-2 flex max-w-3xl justify-center rounded-full border border-zinc-500 bg-transparent px-4 py-2 outline-none"
+      />
+
       <div class="mx-auto grid max-w-7xl grid-cols-18 gap-2">
         <div>{renderAtom(atoms.value[0])}</div>
         <div class="col-span-16" />

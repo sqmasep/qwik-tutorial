@@ -14,8 +14,10 @@ export const useAtom = routeLoader$(async (requestEvent) => {
 });
 
 export default component$(() => {
-  const atom = useAtom().value;
-  console.log(atom);
+  const atomSignal = useAtom();
+  const atom = atomSignal.value;
+
+  if (!atom) return null;
 
   const containerStyle = {
     backgroundColor: colorMap.family[atom.family.name] + "60",
@@ -40,16 +42,16 @@ export default component$(() => {
         </span>
       </div>
       <div class="flex flex-col gap-6 text-3xl text-gray-300">
-        <h1 class="text-6xl font-bold">{atom?.name.fr}</h1>
-        <span>Masse atomique: {atom?.atomicMass} u</span>
-        <span>Point de fusion: {atom?.meltingPoint.celsius}°C</span>
-        <span>Famille: {atom?.family.name}</span>
+        <h1 class="text-6xl font-bold">{atom.name.fr}</h1>
+        <span>Masse atomique: {atom.atomicMass} u</span>
+        <span>Point de fusion: {atom.meltingPoint.celsius}°C</span>
+        <span>Famille: {atom.family.name}</span>
         <div class="text-4lg mt-8 font-semibold underline">
           Découverte De l'atome
         </div>
-        <span class="-mt-2">Par: {atom?.discovery.by}</span>
+        <span class="-mt-2">Par: {atom.discovery.by}</span>
         <span class="-mt-6">
-          {atom?.discovery.country}, {atom?.discovery.year}
+          {atom.discovery.country}, {atom.discovery.year}
         </span>
       </div>
     </div>
