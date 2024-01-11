@@ -31,11 +31,11 @@ export default component$(() => {
         class="relative flex h-80 w-80 items-center justify-center rounded-lg shadow-lg"
         style={containerStyle}
       >
-        <span class="absolute left-2 top-2 text-4xl text-gray-800">
+        <span class="absolute left-2 top-2 text-4xl text-gray-400">
           {atom.atomicNumber}
         </span>
         <span class="text-8xl text-white">{atom.symbol}</span>
-        <span class="absolute bottom-2 text-2xl text-gray-800">
+        <span class="absolute bottom-2 text-2xl text-gray-400">
           {atom.name.fr}
         </span>
       </div>
