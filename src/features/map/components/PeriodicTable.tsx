@@ -1,26 +1,15 @@
 /** @jsxImportSource react */
 import { qwikify$ } from "@builder.io/qwik-react";
-import { useEffect, useState } from "react";
 import { parse } from "valibot";
 import type { Atom, Atoms } from "~/lib/validation/atom";
 import { atomsSchema } from "~/lib/validation/atom";
 import { createArray } from "~/utils/createSlicedArray";
 
 const ReactPeriodicTable: React.FC = () => {
-  const [atoms, setAtoms] = useState<Atoms>([]);
-
+  //Le code d'affichage du tableau periodique est ici correct, il faut maintenant lui fournir les données 😉
   const renderAtom = (atom: Atom) => {
     return <div>{atom.symbol}</div>;
   };
-
-  useEffect(() => {
-    fetch("../../atoms.json")
-      .then((res) => res.json())
-      .then((data) => {
-        const safeData = parse(atomsSchema, data);
-        setAtoms(safeData);
-      });
-  }, []);
 
   if (!atoms.length) return null;
 
