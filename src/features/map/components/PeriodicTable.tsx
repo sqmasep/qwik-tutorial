@@ -5,6 +5,19 @@ import type { Atom } from "~/lib/validation/atom";
 import { useAtoms } from "~/routes/layout";
 import { createArray } from "~/utils/createSlicedArray";
 
+/*
+Encore mieux, mais ça reste un peu léger niveau info, tout le monde rêve de savoir qui a découvert le Praséodyme non ?
+Ça manque d'une page qui affiche chaque atome.
+Cette application aurait bien besoin d'un système de route.
+
+/!\ ATTENTION /!\
+Avec qwik, le routing marche de façon différente qu'avec les framework que vous avez pu étudier en MMI.
+Nous vous invitons donc a prendre connaissance de la doc avant de vous lancer dans le dev.
+
+
+Voici un lien vers la doc:
+https://qwik.builder.io/docs/routing/
+*/
 export const PeriodicTable = component$(() => {
   const atoms = useAtoms();
 
