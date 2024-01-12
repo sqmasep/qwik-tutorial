@@ -6,6 +6,14 @@ import type { Atom, Atoms } from "~/lib/validation/atom";
 import { atomsSchema } from "~/lib/validation/atom";
 import { createArray } from "~/utils/createSlicedArray";
 
+/* 
+React, c'est bien, mais maintenant, c'est l'heure de découvrir qwik
+Transformez ce composant React en composant qwik
+À terme, il ne doit plus rester de qwikify
+
+Voici un lien vers la doc officielle: 
+https://qwik.builder.io/docs/components/overview/
+*/
 const ReactPeriodicTable: React.FC = () => {
   const [atoms, setAtoms] = useState<Atoms>([]);
 
