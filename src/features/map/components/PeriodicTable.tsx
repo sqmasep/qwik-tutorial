@@ -4,6 +4,17 @@ import type { Atom } from "~/lib/validation/atom";
 import { useAtoms } from "~/routes/layout";
 import { createArray } from "~/utils/createSlicedArray";
 
+/*
+C'est beau pas vrai ?
+Beau mais pas très pratique...
+Ça pourrait être sympa d'avoir un système de tri histoire de pouvoir mieux visualiser tout ça.
+Il y a plein de possibilités et elles sont libres :
+- par familles d'atomes (family.name)
+- par état (phaseAtSTP)
+- par block dans le tableau (block)
+Bien sûr, nous attendons aussi un système de tri par nom d'atome avec un champ de recherche 🤠
+*/
+
 export const PeriodicTable = component$(() => {
   const atoms = useAtoms();
 
